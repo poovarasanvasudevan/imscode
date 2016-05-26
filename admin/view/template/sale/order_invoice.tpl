@@ -1,0 +1,101 @@
+<?php echo '<?xml version="1.0" encoding="UTF-8"?>' . "\n"; ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="<?php echo $direction; ?>" lang="<?php echo $language; ?>"
+      xml:lang="<?php echo $language; ?>">
+<head>
+    <title><?php echo $title; ?></title>
+    <base href="<?php echo $base; ?>"/>
+    <link rel="stylesheet" type="text/css" href="view/stylesheet/invoice.css"/>
+</head>
+<body>
+<?php foreach ($orders as $order) { ?>
+
+<div style="page-break-after: always;">
+
+    <table class="store" style="margin-bottom:0px;">
+        <tr>
+            <td class="td">
+                <img src="" width="100" height="100">
+            </td>
+            <td class="td">
+                <h3><?php echo "Shipping Address"; ?></h3>
+                <h3> <?php echo $order['shipping_address']; ?><br/>
+                    <?php echo $text_telephone; ?>
+                    <?php echo $order['telephone']; ?></h3>
+            </td>
+        </tr>
+    </table>
+    <table class="store">
+        <tr>
+            <td class="td">
+                <b><?php echo $text_order_id; ?>    <?php echo $order['order_id']; ?></b><br/>
+                <b><?php echo $text_date_added; ?></b>  <?php echo $order['date_added']; ?><br/>
+                <b><?php echo $text_invoice_date; ?></b>  <?php echo $order['invoice_date']; ?><br/>
+                <b><?php echo "TIN: "; ?></b> <?php echo $order['store_tin']; ?><br/>
+                <b><?php echo "CST No: "; ?></b> <?php echo $order['store_cst']; ?><br/>
+            </td>
+            <td class="td">
+                <b><?php echo "Billing Address"; ?></b><br/>
+                <?php echo $order['payment_address']; ?><br/>
+                <?php echo $text_telephone; ?>
+                <?php echo $order['telephone']; ?></font>
+            </td>
+        </tr>
+    </table>
+    <table class="product">
+        <tr class="heading">
+            <td><b><?php echo $column_product; ?></b></td>
+            <td><b><?php echo $column_model; ?></b></td>
+            <td align="right"><b><?php echo $column_quantity; ?></b></td>
+            <td align="right"><b><?php echo $column_tax; ?></b></td>
+            <td align="right"><b><?php echo $column_price; ?></b></td>
+            <td align="right"><b><?php echo $column_total; ?></b></td>
+        </tr>
+        <?php foreach ($order['product'] as $product) { ?>
+        <tr>
+            <td><?php echo $product['name']; ?>
+                <?php foreach ($product['option'] as $option) { ?>
+                <br/>
+                &nbsp;
+                <small> - <?php echo $option['name']; ?>: <?php echo $option['value']; ?></small>
+                <?php } ?></td>
+            <td><?php echo $product['model']; ?></td>
+            <td align="right"><?php echo $product['quantity']; ?></td>
+            <td align="right"><?php echo $product['tax']; ?></td>
+            <td align="right"><?php echo $product['price']; ?></td>
+            <td align="right"><?php echo $product['total']; ?></td>
+        </tr>
+        <?php } ?>
+        <?php foreach ($order['voucher'] as $voucher) { ?>
+        <tr>
+            <td align="left"><?php echo $voucher['description']; ?></td>
+            <td align="left"></td>
+            <td align="right">1</td>
+            <td align="right"><?php echo $voucher['amount']; ?></td>
+            <td align="right"><?php echo $voucher['amount']; ?></td>
+        </tr>
+        <?php } ?>
+        <?php foreach ($order['total'] as $total) { ?>
+        <tr>
+            <td align="right" colspan="5"><b><?php echo $total['title']; ?>:</b></td>
+            <td align="right"><?php echo $total['text']; ?></td>
+        </tr>
+        <?php } ?>
+    </table>
+    <p align="right"><?php echo "*Prices are inclusive of taxes."; ?></p>
+    <p align="right"><?php echo "*The goods sold as part of this shipment are intended for end-user consumption/retail and not for re-sale."; ?></p>
+    <?php if ($order['comment']) { ?>
+    <table class="comment">
+        <tr class="heading">
+            <td><b><?php echo $column_comment; ?></b></td>
+        </tr>
+        <tr>
+            <td><?php echo $order['comment']; ?></td>
+        </tr>
+    </table>
+    <?php } ?>
+</div>
+<?php } ?>
+<center><b><?php echo $text_admin_address; ?></b></center>
+</body>
+</html>

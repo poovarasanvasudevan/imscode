@@ -1,0 +1,117 @@
+<modification>
+	<id><![CDATA[search_instock]]></id>
+	<version><![CDATA[1.0]]></version>
+	<vqmver><![CDATA[2.3.2]]></vqmver>
+	<author><![CDATA[opencartdeveloper]]></author>
+	<file name="catalog/view/theme/*/template/product/search.tpl">
+		<operation>
+			<search position="after"><![CDATA[<label for="description"><?php echo $entry_description; ?></label>]]></search>
+			<add><![CDATA[
+			<input type="checkbox" name="filter_instock" value="1" id="filter_instock" <?php if($filter_instock){echo "checked";}?> />
+			<label for="filter_instock"><?php echo $entry_instock; ?></label>
+			]]></add>
+		</operation>
+		
+		
+		<operation>
+			<search position="before"><![CDATA[location = url;]]></search>
+			<add><![CDATA[
+		
+		var filter_instock = $('#content input[name=\'filter_instock\']:checked').attr('value');
+	
+		if (filter_instock) {
+			url += '&filter_instock=true';
+		}
+		
+			]]></add>
+		</operation>
+	</file>
+	<file name="catalog/language/*/product/search.php">
+		<operation>
+			<search position="before"><![CDATA[?>]]></search>
+			<add><![CDATA[
+			$_['entry_instock'] = 'In stock only';
+			]]></add>
+		</operation>
+	</file>	
+	
+	<file name="catalog/controller/product/search.php">
+		<operation>
+			<search position="before" index="1"><![CDATA[$this->data['entry_description'] = $this->language->get('entry_description');]]></search>
+			<add><![CDATA[
+			$this->data['entry_instock'] = $this->language->get('entry_instock');
+			]]></add>
+		</operation>
+		
+		<operation>
+			<search position="before" index="1"><![CDATA[$this->data['products'] = array();]]></search>
+			<add><![CDATA[
+			
+			if (isset($this->request->get['filter_instock'])) {
+				$filter_instock = $this->request->get['filter_instock'];
+			} else {
+				$filter_instock = '';
+			} 
+			$this->data['filter_instock'] = $filter_instock;
+			if (isset($this->request->get['filter_instock'])) {
+				$url .= '&filter_instock=' . $this->request->get['filter_instock'];
+			}
+			
+			]]></add>
+		</operation>
+		
+		<operation>
+			<search position="before" index="1"><![CDATA[$product_total = $this->model_catalog_product->getTotalProducts($data);]]></search>
+			<add><![CDATA[
+			
+			$data['filter_instock'] = $filter_instock;
+			
+			]]></add>
+		</operation>
+		
+		<operation>
+			<search position="before" index="1"><![CDATA[$this->data['sorts'] = array();]]></search>
+			<add><![CDATA[
+			
+			if (isset($this->request->get['filter_instock'])) {
+				$url .= '&filter_instock=' . $this->request->get['filter_instock'];
+			}
+			
+			]]></add>
+		</operation>
+		
+		<operation>
+			<search position="before" index="1"><![CDATA[$this->data['limits'] = array();]]></search>
+			<add><![CDATA[
+			
+			if (isset($this->request->get['filter_instock'])) {
+				$url .= '&filter_instock=' . $this->request->get['filter_instock'];
+			}
+			
+			]]></add>
+		</operation>
+		
+	</file>
+	<file name="catalog/model/catalog/product.php">
+		<operation>
+			<search position="before" index="1"><![CDATA[if (!empty($data['filter_name']) || !empty($data['filter_tag'])) {]]></search>
+			<add><![CDATA[
+			
+			if (!empty($data['filter_instock'])) {
+				$sql .= " AND (p.stock_status_id = '7' OR p.quantity > 0)";
+			}
+			]]></add>
+		</operation>
+		<operation>
+			<search position="before" index="2"><![CDATA[if (!empty($data['filter_name']) || !empty($data['filter_tag'])) {]]></search>
+			<add><![CDATA[
+			
+			if (!empty($data['filter_instock'])) {
+				$sql .= " AND (p.stock_status_id = '7' OR p.quantity > 0)";
+			}
+			]]></add>
+		</operation>
+	</file>	
+	
+		
+</modification>

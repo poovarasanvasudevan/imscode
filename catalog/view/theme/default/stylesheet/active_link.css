@@ -1,0 +1,6 @@
+.active_link {
+	color: #3979B7;
+}
+#menu > ul > li.active_link > a {
+	color: #3979B7;
+}

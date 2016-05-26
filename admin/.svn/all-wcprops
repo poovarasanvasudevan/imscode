@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/repos2/opencart/!svn/ver/182/trunk/shpt/admin
+END
+.htaccess
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/repos2/opencart/!svn/ver/119/trunk/shpt/admin/.htaccess
+END
+config.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/repos2/opencart/!svn/ver/119/trunk/shpt/admin/config.php
+END
+index.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/repos2/opencart/!svn/ver/119/trunk/shpt/admin/index.php
+END
+php.ini
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/repos2/opencart/!svn/ver/119/trunk/shpt/admin/php.ini
+END

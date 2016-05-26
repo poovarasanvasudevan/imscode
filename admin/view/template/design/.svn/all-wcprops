@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos2/opencart/!svn/ver/56/trunk/shpt/admin/view/template/design
+END
+banner_form.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos2/opencart/!svn/ver/56/trunk/shpt/admin/view/template/design/banner_form.tpl
+END
+custom_field_list.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos2/opencart/!svn/ver/56/trunk/shpt/admin/view/template/design/custom_field_list.tpl
+END
+layout_list.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos2/opencart/!svn/ver/56/trunk/shpt/admin/view/template/design/layout_list.tpl
+END
+banner_list.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos2/opencart/!svn/ver/56/trunk/shpt/admin/view/template/design/banner_list.tpl
+END
+custom_field_form.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos2/opencart/!svn/ver/56/trunk/shpt/admin/view/template/design/custom_field_form.tpl
+END
+layout_form.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos2/opencart/!svn/ver/56/trunk/shpt/admin/view/template/design/layout_form.tpl
+END

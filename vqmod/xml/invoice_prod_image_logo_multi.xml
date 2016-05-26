@@ -1,0 +1,67 @@
+<modification>  
+<id>invoice_prod_image_logo_multi</id>
+        <version>1.0</version>
+        <vqmver>1.0</vqmver>
+        <author>ocextensions.co.uk</author>
+        <file name="admin/model/sale/order.php">
+            <operation>
+                <search position="after" index="1" offset="2"><![CDATA[return $query->row['total'];]]></search>
+                <add><![CDATA[        public function getProductImage($product_id) {
+		$query = $this->db->query("SELECT image FROM " . DB_PREFIX . "product WHERE product_id = '" . (int)$product_id . "'");
+		return $query->row;
+	}]]></add>
+            </operation>
+        </file>
+        <file name="admin/controller/sale/order.php">
+             <operation>
+                <search position="after"><![CDATA[$store_fax = $store_info['config_fax'];]]></search>
+                <add><![CDATA[					$store_logo = $store_info['config_logo'];]]></add>
+            </operation>
+            <operation>
+                <search position="after"><![CDATA['store_name'         => $order_info['store_name'],]]></search>
+                <add><![CDATA[					'logo'              => HTTP_CATALOG . 'image/' .$store_info['config_logo'],]]></add>
+            </operation>
+            <operation>
+                        <search position="after" index="2"><![CDATA[$option_data = array();]]></search>
+                        <add><![CDATA[                     $product['img'] = $this->model_sale_order->getProductImage($product['product_id']);]]></add>
+            </operation>
+            <operation>
+                        <search position="before"><![CDATA[$product_data[] = array(]]></search>
+                        <add><![CDATA[                             $this->load->model('tool/image');]]></add>
+            </operation>
+            <operation>
+                        <search position="after"><![CDATA[$product_data[] = array(]]></search>
+                        <add><![CDATA[              'image'    => $this->model_tool_image->resize($product['img']['image'], $this->config->get('config_image_cart_width'), $this->config->get('config_image_cart_height')),]]></add>
+            </operation>
+        </file>
+        <file name="admin/view/template/sale/order_invoice.tpl">
+            <operation>
+                        <search position="after"><![CDATA[<div style="page-break-after: always;">]]></search>
+                        <add><![CDATA[      <table width="100%">
+    										<tr>
+    											<td width="10%" style='padding:5px 10px 5px 5px'><img src=<?php echo $order['logo']; ?> /></td>
+      											<td width="45%" style='font-size:14px; padding:10px 10px 5px 5px'>
+      												<b><?php echo $order['store_name']; ?></b><br />
+      												<p style="font-size:10px"></p>
+      												<?php echo $order['store_address']; ?><br />
+      												<?php echo $text_telephone; ?> <?php echo $order['store_telephone']; ?><br />
+											        <?php if ($order['store_fax']) { ?>
+											        <?php echo $text_fax; ?> <?php echo $order['store_fax']; ?><br />
+											        <?php } ?>
+											        <?php echo $text_email; ?> <?php echo $order['store_email']; ?><br />
+      											</td>
+      											<td width="45%" align="right">
+    												<b><?php echo $text_invoice_no; ?></b>
+    												<?php echo $order['invoice_no']; ?>
+      											</td>
+      										</tr>
+    										</table>]]></add>
+            </operation>
+            <operation>
+                        <search position="replace"><![CDATA[<td><b><?php echo $column_product; ?></b></td>]]></search>
+                        <add><![CDATA[     <td colspan="1"><b><?php echo $column_product; ?></b></td>]]></add>
+            </operation>
+
+        </file>
+          
+</modification>

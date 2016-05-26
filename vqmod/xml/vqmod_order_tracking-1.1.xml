@@ -1,0 +1,238 @@
+<modification>
+
+	<id>vQmod - Order Tracking Mod</id>
+	<version>1.1</version>
+	<vqmver>2.4.1</vqmver>
+	<author>Prabhu</author>
+
+	<file name="admin/controller/sale/order.php">
+        <operation>
+            <search position="after" index="1"><![CDATA[
+         	$this->data['entry_comment'] = $this->language->get('entry_comment');
+            ]]></search>
+            <add><![CDATA[
+			// track and trace
+			$this->data['entry_trackcode'] = $this->language->get('entry_trackcode');	
+           ]]></add>
+        </operation>
+        <operation>
+            <search position="after" index="2"><![CDATA[
+         	$this->data['entry_comment'] = $this->language->get('entry_comment');
+            ]]></search>
+            <add><![CDATA[
+			// track and trace
+			$this->data['entry_trackcode'] = $this->language->get('entry_trackcode');	
+           ]]></add>
+        </operation>
+        <operation>
+            <search position="after"><![CDATA[
+         	$this->data['text_comment'] = $this->language->get('text_comment');
+            ]]></search>
+            <add><![CDATA[
+			// track and trace
+			$this->data['text_trackcode'] = $this->language->get('text_trackcode');	
+           ]]></add>
+        </operation>
+        <operation>
+            <search position="after"><![CDATA[
+         	$this->data['comment'] = nl2br($order_info['comment']);
+            ]]></search>
+            <add><![CDATA[
+			// track and trace
+			//$this->data['trackcode'] = nl2br($order_info['trackcode']);	
+           ]]></add>
+        </operation>
+        <operation>
+            <search position="after"><![CDATA[
+         	$this->data['column_comment'] = $this->language->get('column_comment');
+            ]]></search>
+            <add><![CDATA[
+			// track and trace
+			$this->data['column_trackcode'] = $this->language->get('column_trackcode');	
+           ]]></add>
+        </operation>
+        <operation>
+            <search position="after"><![CDATA[
+         	'comment'    => nl2br($result['comment']),
+            ]]></search>
+            <add><![CDATA[
+			'trackcode'    => nl2br($result['trackcode']),
+           ]]></add>
+        </operation>
+	</file>
+	<file name="admin/language/english/sale/order.php">
+        <operation>
+            <search position="after"><![CDATA[
+         	$_['text_comment']                            = 'Comment:';
+            ]]></search>
+            <add><![CDATA[
+			$_['text_trackcode']                          = 'Tracking Code:';	
+           ]]></add>
+        </operation>
+        <operation>
+            <search position="after"><![CDATA[
+         	$_['column_comment']                          = 'Comment';
+            ]]></search>
+            <add><![CDATA[
+			$_['column_trackcode']                        = 'Track Code';	
+           ]]></add>
+        </operation>
+        <operation>
+            <search position="after"><![CDATA[
+         	$_['entry_comment']                           = 'Comment:';
+            ]]></search>
+            <add><![CDATA[
+			$_['entry_trackcode']                         = 'Track Code:';	
+           ]]></add>
+        </operation>
+	</file>
+	<file name="admin/model/sale/order.php">
+        <operation>
+            <search position="replace"><![CDATA[
+         	$this->db->query("INSERT INTO " . DB_PREFIX . "order_history SET order_id = '" . (int)$order_id . "', order_status_id = '" . (int)$data['order_status_id'] . "', notify = '" . (isset($data['notify']) ? (int)$data['notify'] : 0) . "', comment = '" . $this->db->escape(strip_tags($data['comment'])) . "', date_added = NOW()");
+            ]]></search>
+            <add><![CDATA[
+			$this->db->query("INSERT INTO " . DB_PREFIX . "order_history SET order_id = '" . (int)$order_id . "', order_status_id = '" . (int)$data['order_status_id'] . "', notify = '" . (isset($data['notify']) ? (int)$data['notify'] : 0) . "', trackcode = '" . $this->db->escape(strip_tags($data['trackcode'])) ."', comment = '" . $this->db->escape(strip_tags($data['comment'])) . "', date_added = NOW()");	
+           ]]></add>
+        </operation>
+        <operation>
+            <search position="before"><![CDATA[
+         	$message .= $language->get('text_footer');
+            ]]></search>
+            <add><![CDATA[
+			if ($data['trackcode']) {
+				$message .= $language->get('text_link') . "\n\n";
+				$message .= html_entity_decode('http://services.ptcmysore.gov.in/Speednettracking/Track.aspx?articlenumber=' . $data['trackcode'] . '&I=True', ENT_QUOTES, 'UTF-8') . "\n\n";
+			}
+           ]]></add>
+        </operation>
+        <operation>
+            <search position="replace"><![CDATA[
+         	$query = $this->db->query("SELECT oh.date_added, os.name AS status, oh.comment, oh.notify FROM " . DB_PREFIX . "order_history oh LEFT JOIN " . DB_PREFIX . "order_status os ON oh.order_status_id = os.order_status_id WHERE oh.order_id = '" . (int)$order_id . "' AND os.language_id = '" . (int)$this->config->get('config_language_id') . "' ORDER BY oh.date_added ASC LIMIT " . (int)$start . "," . (int)$limit);
+            ]]></search>
+            <add><![CDATA[
+			$query = $this->db->query("SELECT oh.date_added, os.name AS status, oh.trackcode, oh.comment, oh.notify, oh.shp_quantity FROM " . DB_PREFIX . "order_history oh LEFT JOIN " . DB_PREFIX . "order_status os ON oh.order_status_id = os.order_status_id WHERE oh.order_id = '" . (int)$order_id . "' AND os.language_id = '" . (int)$this->config->get('config_language_id') . "' ORDER BY oh.date_added ASC LIMIT " . (int)$start . "," . (int)$limit);	
+           ]]></add>
+        </operation>
+	</file>
+		<file name="admin/view/template/sale/order_history.tpl">
+        <operation>
+            <search position="after"><![CDATA[
+         	<td class="left"><b><?php echo $column_status; ?></b></td>
+            ]]></search>
+            <add><![CDATA[
+			<td class="left"><b><?php echo $column_trackcode; ?></b></td>
+           ]]></add>
+        </operation>
+        <operation>
+            <search position="after"><![CDATA[
+         	<td class="left"><?php echo $history['status']; ?></td>
+            ]]></search>
+            <add><![CDATA[
+			<td class="left"><?php echo $history['trackcode']; ?></td>
+           ]]></add>
+        </operation>
+	</file>
+	<file name="admin/view/template/sale/order_info.tpl">
+        <operation>
+            <search position="before" index="55"><![CDATA[
+         	<tr>
+            ]]></search>
+            <add><![CDATA[
+		  	<tr>
+            	<td><?php echo $entry_trackcode; ?></td>
+            	<td><input name="trackcode" type="text" maxlength="15" />
+          	</tr>
+            ]]></add>
+        </operation>
+        <operation>
+            <search position="replace"><![CDATA[
+         	data: 'order_status_id=' + encodeURIComponent($('select[name=\'order_status_id\']').val()) + '&notify=' + encodeURIComponent($('input[name=\'notify\']').attr('checked') ? 1 : 0) + '&append=' + encodeURIComponent($('input[name=\'append\']').attr('checked') ? 1 : 0) + '&comment=' + encodeURIComponent($('textarea[name=\'comment\']').val()),
+            ]]></search>
+            <add><![CDATA[
+		  	data: 'order_status_id=' + encodeURIComponent($('select[name=\'order_status_id\']').val()) + '&notify=' + encodeURIComponent($('input[name=\'notify\']').attr('checked') ? 1 : 0) + '&append=' + encodeURIComponent($('input[name=\'append\']').attr('checked') ? 1 : 0) + '&trackcode=' + encodeURIComponent($('input[name=\'trackcode\']').val()) + '&comment=' + encodeURIComponent($('textarea[name=\'comment\']').val()),
+            ]]></add>
+        </operation>
+	</file>
+	<file name="catalog/controller/account/order.php">
+        <operation>
+            <search position="after" index="1"><![CDATA[
+         	$this->data['column_comment'] = $this->language->get('column_comment');
+            ]]></search>
+            <add><![CDATA[
+			// track and trace
+			$this->data['column_track_trace'] = $this->language->get('column_track_trace');	
+           ]]></add>
+        </operation>
+        <operation>
+            <search position="after" index="1"><![CDATA[
+         	$results = $this->model_account_order->getOrderHistories($this->request->get['order_id']);
+            ]]></search>
+            <add><![CDATA[
+			// track and trace
+			$tnt_zipcode = TRIM(substr($order_info['shipping_postcode'], 0, 4) . strtoupper(substr($order_info['shipping_postcode'], -2)));
+           ]]></add>
+        </operation>
+        <operation>
+            <search position="before" index="1"><![CDATA[
+         	'comment'    => nl2br($result['comment'])
+            ]]></search>
+            <add><![CDATA[
+			'tnt_track'  => $result['trackcode'],
+			'trackcode'	 => $result['trackcode'] = 'http://services.ptcmysore.gov.in/Speednettracking/Track.aspx?articlenumber=' . $result['trackcode'] . '&I=True',
+           ]]></add>
+        </operation>
+	</file>
+	<file name="catalog/language/english/account/order.php">
+        <operation>
+            <search position="after"><![CDATA[
+         	$_['column_status']         = 'Status';
+            ]]></search>
+            <add><![CDATA[
+			// Track and Trace
+			$_['column_track_trace']    = 'Tracking Code';
+           ]]></add>
+        </operation>
+	</file>
+	<file name="catalog/language/english/mail/order.php">
+        <operation>
+            <search position="after"><![CDATA[
+         	$_['text_update_link']          = 'To view your order click on the link below:';
+            ]]></search>
+            <add><![CDATA[
+			// Track and Trace
+			$_['text_track_trace'] 			= 'To track your order click on the link below:';
+           ]]></add>
+        </operation>
+	</file>
+	<file name="catalog/model/account/order.php">
+        <operation>
+            <search position="replace"><![CDATA[
+         	$query = $this->db->query("SELECT date_added, os.name AS status, oh.comment, oh.notify FROM " . DB_PREFIX . "order_history oh LEFT JOIN " . DB_PREFIX . "order_status os ON oh.order_status_id = os.order_status_id WHERE oh.order_id = '" . (int)$order_id . "' AND oh.notify = '1' AND os.language_id = '" . (int)$this->config->get('config_language_id') . "' ORDER BY oh.date_added");
+            ]]></search>
+            <add><![CDATA[
+			$query = $this->db->query("SELECT date_added, os.name AS status, oh.comment, oh.trackcode, oh.notify FROM " . DB_PREFIX . "order_history oh LEFT JOIN " . DB_PREFIX . "order_status os ON oh.order_status_id = os.order_status_id WHERE oh.order_id = '" . (int)$order_id . "' AND oh.notify = '1' AND os.language_id = '" . (int)$this->config->get('config_language_id') . "' ORDER BY oh.date_added DESC");
+           ]]></add>
+        </operation>
+	</file>
+	<file name="catalog/view/theme/default/template/account/order_info.tpl">
+        <operation>
+            <search position="after"><![CDATA[
+         	<td class="left"><?php echo $column_status; ?></td>
+            ]]></search>
+            <add><![CDATA[
+			<!-- track and trace -->
+				<td align="left"><?php echo $column_track_trace; ?></td>
+			]]></add>
+        </operation>
+        <operation>
+            <search position="after"><![CDATA[
+         	<td class="left"><?php echo $history['status']; ?></td>
+            ]]></search>
+            <add><![CDATA[
+			<!-- track and trace -->
+        		<td class="left"><a href='<?php echo $history['trackcode']; ?>' target="_blank"><b onmouseover="this.style.color='red'" onmouseout="this.style.color=''"><?php echo $history['tnt_track']; ?></b></a></td>			
+        	]]></add>
+        </operation>
+	</file>
+</modification>

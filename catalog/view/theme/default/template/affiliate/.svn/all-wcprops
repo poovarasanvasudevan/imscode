@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/view/theme/default/template/affiliate
+END
+register.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/view/theme/default/template/affiliate/register.tpl
+END
+edit.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/view/theme/default/template/affiliate/edit.tpl
+END
+transaction.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/view/theme/default/template/affiliate/transaction.tpl
+END
+forgotten.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/view/theme/default/template/affiliate/forgotten.tpl
+END
+login.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/view/theme/default/template/affiliate/login.tpl
+END
+account.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/view/theme/default/template/affiliate/account.tpl
+END
+payment.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/view/theme/default/template/affiliate/payment.tpl
+END
+password.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/view/theme/default/template/affiliate/password.tpl
+END
+tracking.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/view/theme/default/template/affiliate/tracking.tpl
+END

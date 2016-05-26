@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos2/opencart/!svn/ver/80/trunk/shpt/catalog/view/theme/shpt/template/checkout
+END
+shipping_method.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/view/theme/shpt/template/checkout/shipping_method.tpl
+END
+payment_address.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/view/theme/shpt/template/checkout/payment_address.tpl
+END
+register.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/view/theme/shpt/template/checkout/register.tpl
+END
+checkout.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/view/theme/shpt/template/checkout/checkout.tpl
+END
+shipping_address.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/view/theme/shpt/template/checkout/shipping_address.tpl
+END
+guest.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/view/theme/shpt/template/checkout/guest.tpl
+END
+guest_shipping.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/view/theme/shpt/template/checkout/guest_shipping.tpl
+END
+login.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/view/theme/shpt/template/checkout/login.tpl
+END
+cart.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/view/theme/shpt/template/checkout/cart.tpl
+END
+confirm.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/view/theme/shpt/template/checkout/confirm.tpl
+END
+payment_method.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos2/opencart/!svn/ver/80/trunk/shpt/catalog/view/theme/shpt/template/checkout/payment_method.tpl
+END

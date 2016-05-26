@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos2/opencart/!svn/ver/141/trunk/shpt/system/PHPExcel/Classes/PHPExcel/Shared/JAMA
+END
+LUDecomposition.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos2/opencart/!svn/ver/141/trunk/shpt/system/PHPExcel/Classes/PHPExcel/Shared/JAMA/LUDecomposition.php
+END
+CholeskyDecomposition.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repos2/opencart/!svn/ver/141/trunk/shpt/system/PHPExcel/Classes/PHPExcel/Shared/JAMA/CholeskyDecomposition.php
+END
+SingularValueDecomposition.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repos2/opencart/!svn/ver/141/trunk/shpt/system/PHPExcel/Classes/PHPExcel/Shared/JAMA/SingularValueDecomposition.php
+END
+CHANGELOG.TXT
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos2/opencart/!svn/ver/141/trunk/shpt/system/PHPExcel/Classes/PHPExcel/Shared/JAMA/CHANGELOG.TXT
+END
+QRDecomposition.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos2/opencart/!svn/ver/141/trunk/shpt/system/PHPExcel/Classes/PHPExcel/Shared/JAMA/QRDecomposition.php
+END
+EigenvalueDecomposition.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos2/opencart/!svn/ver/141/trunk/shpt/system/PHPExcel/Classes/PHPExcel/Shared/JAMA/EigenvalueDecomposition.php
+END
+Matrix.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos2/opencart/!svn/ver/141/trunk/shpt/system/PHPExcel/Classes/PHPExcel/Shared/JAMA/Matrix.php
+END

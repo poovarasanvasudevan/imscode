@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modification>
+	<id>High Performance Category Load</id>
+	<version>1.2</version>
+	<vqmver>2.2.1</vqmver>
+	<author>Malcus</author>
+	<!-- Inicio: Catalog/Model/Catalog/Product -->
+	<file name="catalog/model/catalog/product.php">
+		<operation>
+			<search position="replace" index="3"><![CDATA[$query = $this->db->query($sql);]]></search>
+			<add><![CDATA[
+				$md5 = md5($sql);
+				$sqlMD5 = "SELECT `sql_records_number` as sql_records_number FROM `" . DB_PREFIX . "sql_records` WHERE `sql_md5` = '$md5'";
+
+				$query = $this->db->query($sqlMD5);
+				if (sizeof($query->row) > 0)         
+				{
+				    $record_number = $query->row['sql_records_number'];		               
+				}
+				else 
+				{
+				    $query = $this->db->query($sql);
+				    $record_number = $query->row['total'];
+
+				    $sql = mysql_real_escape_string($sql);
+
+				    $sqlMD5 = "INSERT INTO " . DB_PREFIX . "sql_records (sql_md5,sql_records_number,sql_txt) VALUES ('$md5',$record_number,'$sql')";
+				    $this->db->query($sqlMD5);               
+				}
+				        
+				return $record_number;				
+			]]></add>
+		</operation>
+		<operation>
+			<search position="replace" index="1"><![CDATA[return $query->row['total'];]]></search>
+			<add><![CDATA[]]></add>
+		</operation>
+	</file>
+</modification>

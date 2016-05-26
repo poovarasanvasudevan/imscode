@@ -1,0 +1,8 @@
+{
+  "HTTP_SERVER": "http:\/\/localhost\/shpt\/",
+  "HTTPS_SERVER": "http:\/\/localhost\/shpt\/",
+  "MYSQL_HOST": "localhost",
+  "MYSQL_USER": "root",
+  "MYSQL_PASSWORD": "poosan",
+  "MYSQL_DATABASE": "shptwbs"
+}

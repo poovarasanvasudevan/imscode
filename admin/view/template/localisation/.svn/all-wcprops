@@ -1,0 +1,185 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos2/opencart/!svn/ver/56/trunk/shpt/admin/view/template/localisation
+END
+tax_class_list.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos2/opencart/!svn/ver/56/trunk/shpt/admin/view/template/localisation/tax_class_list.tpl
+END
+currency_form.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos2/opencart/!svn/ver/56/trunk/shpt/admin/view/template/localisation/currency_form.tpl
+END
+return_status_list.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos2/opencart/!svn/ver/56/trunk/shpt/admin/view/template/localisation/return_status_list.tpl
+END
+language_list.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos2/opencart/!svn/ver/56/trunk/shpt/admin/view/template/localisation/language_list.tpl
+END
+return_reason_list.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos2/opencart/!svn/ver/56/trunk/shpt/admin/view/template/localisation/return_reason_list.tpl
+END
+stock_status_list.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos2/opencart/!svn/ver/56/trunk/shpt/admin/view/template/localisation/stock_status_list.tpl
+END
+currency_list.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos2/opencart/!svn/ver/56/trunk/shpt/admin/view/template/localisation/currency_list.tpl
+END
+country_form.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos2/opencart/!svn/ver/56/trunk/shpt/admin/view/template/localisation/country_form.tpl
+END
+geo_zone_form.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos2/opencart/!svn/ver/56/trunk/shpt/admin/view/template/localisation/geo_zone_form.tpl
+END
+length_class_form.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos2/opencart/!svn/ver/56/trunk/shpt/admin/view/template/localisation/length_class_form.tpl
+END
+tax_rate_form.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos2/opencart/!svn/ver/56/trunk/shpt/admin/view/template/localisation/tax_rate_form.tpl
+END
+measurement_class_form.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos2/opencart/!svn/ver/56/trunk/shpt/admin/view/template/localisation/measurement_class_form.tpl
+END
+country_list.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos2/opencart/!svn/ver/56/trunk/shpt/admin/view/template/localisation/country_list.tpl
+END
+zone_form.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos2/opencart/!svn/ver/56/trunk/shpt/admin/view/template/localisation/zone_form.tpl
+END
+return_action_form.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos2/opencart/!svn/ver/56/trunk/shpt/admin/view/template/localisation/return_action_form.tpl
+END
+weight_class_form.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos2/opencart/!svn/ver/56/trunk/shpt/admin/view/template/localisation/weight_class_form.tpl
+END
+geo_zone_list.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos2/opencart/!svn/ver/56/trunk/shpt/admin/view/template/localisation/geo_zone_list.tpl
+END
+order_status_form.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos2/opencart/!svn/ver/56/trunk/shpt/admin/view/template/localisation/order_status_form.tpl
+END
+length_class_list.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos2/opencart/!svn/ver/56/trunk/shpt/admin/view/template/localisation/length_class_list.tpl
+END
+tax_rate_list.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos2/opencart/!svn/ver/56/trunk/shpt/admin/view/template/localisation/tax_rate_list.tpl
+END
+tax_class_form.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos2/opencart/!svn/ver/56/trunk/shpt/admin/view/template/localisation/tax_class_form.tpl
+END
+measurement_class_list.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos2/opencart/!svn/ver/56/trunk/shpt/admin/view/template/localisation/measurement_class_list.tpl
+END
+return_status_form.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos2/opencart/!svn/ver/56/trunk/shpt/admin/view/template/localisation/return_status_form.tpl
+END
+language_form.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos2/opencart/!svn/ver/56/trunk/shpt/admin/view/template/localisation/language_form.tpl
+END
+zone_list.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos2/opencart/!svn/ver/56/trunk/shpt/admin/view/template/localisation/zone_list.tpl
+END
+return_action_list.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos2/opencart/!svn/ver/56/trunk/shpt/admin/view/template/localisation/return_action_list.tpl
+END
+weight_class_list.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos2/opencart/!svn/ver/56/trunk/shpt/admin/view/template/localisation/weight_class_list.tpl
+END
+order_status_list.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos2/opencart/!svn/ver/56/trunk/shpt/admin/view/template/localisation/order_status_list.tpl
+END
+return_reason_form.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos2/opencart/!svn/ver/56/trunk/shpt/admin/view/template/localisation/return_reason_form.tpl
+END
+stock_status_form.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos2/opencart/!svn/ver/56/trunk/shpt/admin/view/template/localisation/stock_status_form.tpl
+END

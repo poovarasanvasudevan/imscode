@@ -1,0 +1,203 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/view/theme/default/template/payment
+END
+pp_pro.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/view/theme/default/template/payment/pp_pro.tpl
+END
+sagepay_us.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/view/theme/default/template/payment/sagepay_us.tpl
+END
+paymate.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/view/theme/default/template/payment/paymate.tpl
+END
+worldpay.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/view/theme/default/template/payment/worldpay.tpl
+END
+paypoint.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/view/theme/default/template/payment/paypoint.tpl
+END
+authorizenet_sim_callback.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/view/theme/default/template/payment/authorizenet_sim_callback.tpl
+END
+free_checkout.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/view/theme/default/template/payment/free_checkout.tpl
+END
+worldpay_failure.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/view/theme/default/template/payment/worldpay_failure.tpl
+END
+paypoint_failure.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/view/theme/default/template/payment/paypoint_failure.tpl
+END
+bank_transfer.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/view/theme/default/template/payment/bank_transfer.tpl
+END
+sagepay_direct.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/view/theme/default/template/payment/sagepay_direct.tpl
+END
+web_payment_software.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/view/theme/default/template/payment/web_payment_software.tpl
+END
+payza.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/view/theme/default/template/payment/payza.tpl
+END
+nochex.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/view/theme/default/template/payment/nochex.tpl
+END
+pp_express.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/view/theme/default/template/payment/pp_express.tpl
+END
+sagepay.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/view/theme/default/template/payment/sagepay.tpl
+END
+worldpay_success.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/view/theme/default/template/payment/worldpay_success.tpl
+END
+paypoint_success.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/view/theme/default/template/payment/paypoint_success.tpl
+END
+pp_pro_uk.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/view/theme/default/template/payment/pp_pro_uk.tpl
+END
+twocheckout.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/view/theme/default/template/payment/twocheckout.tpl
+END
+pp_standard.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/view/theme/default/template/payment/pp_standard.tpl
+END
+liqpay.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/view/theme/default/template/payment/liqpay.tpl
+END
+google_checkout.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/view/theme/default/template/payment/google_checkout.tpl
+END
+FssNet.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/view/theme/default/template/payment/FssNet.tpl
+END
+cod.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/view/theme/default/template/payment/cod.tpl
+END
+authorizenet_aim.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/view/theme/default/template/payment/authorizenet_aim.tpl
+END
+klarna_pp.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/view/theme/default/template/payment/klarna_pp.tpl
+END
+FssNet_failure.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/view/theme/default/template/payment/FssNet_failure.tpl
+END
+cheque.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/view/theme/default/template/payment/cheque.tpl
+END
+moneybookers.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/view/theme/default/template/payment/moneybookers.tpl
+END
+perpetual_payments.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/view/theme/default/template/payment/perpetual_payments.tpl
+END
+klarna_invoice.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/view/theme/default/template/payment/klarna_invoice.tpl
+END
+authorizenet_sim.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/view/theme/default/template/payment/authorizenet_sim.tpl
+END

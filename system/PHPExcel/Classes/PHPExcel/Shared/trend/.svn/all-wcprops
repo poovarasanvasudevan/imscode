@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos2/opencart/!svn/ver/141/trunk/shpt/system/PHPExcel/Classes/PHPExcel/Shared/trend
+END
+exponentialBestFitClass.php
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repos2/opencart/!svn/ver/141/trunk/shpt/system/PHPExcel/Classes/PHPExcel/Shared/trend/exponentialBestFitClass.php
+END
+linearBestFitClass.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos2/opencart/!svn/ver/141/trunk/shpt/system/PHPExcel/Classes/PHPExcel/Shared/trend/linearBestFitClass.php
+END
+trendClass.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos2/opencart/!svn/ver/141/trunk/shpt/system/PHPExcel/Classes/PHPExcel/Shared/trend/trendClass.php
+END
+powerBestFitClass.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos2/opencart/!svn/ver/141/trunk/shpt/system/PHPExcel/Classes/PHPExcel/Shared/trend/powerBestFitClass.php
+END
+bestFitClass.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos2/opencart/!svn/ver/141/trunk/shpt/system/PHPExcel/Classes/PHPExcel/Shared/trend/bestFitClass.php
+END
+logarithmicBestFitClass.php
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repos2/opencart/!svn/ver/141/trunk/shpt/system/PHPExcel/Classes/PHPExcel/Shared/trend/logarithmicBestFitClass.php
+END
+polynomialBestFitClass.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos2/opencart/!svn/ver/141/trunk/shpt/system/PHPExcel/Classes/PHPExcel/Shared/trend/polynomialBestFitClass.php
+END

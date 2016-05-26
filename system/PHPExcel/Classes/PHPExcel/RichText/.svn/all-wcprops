@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos2/opencart/!svn/ver/141/trunk/shpt/system/PHPExcel/Classes/PHPExcel/RichText
+END
+TextElement.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos2/opencart/!svn/ver/141/trunk/shpt/system/PHPExcel/Classes/PHPExcel/RichText/TextElement.php
+END
+Run.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos2/opencart/!svn/ver/141/trunk/shpt/system/PHPExcel/Classes/PHPExcel/RichText/Run.php
+END
+ITextElement.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos2/opencart/!svn/ver/141/trunk/shpt/system/PHPExcel/Classes/PHPExcel/RichText/ITextElement.php
+END

@@ -1,0 +1,5 @@
+
+.no-csstransforms3d .slideItem
+{
+	margin-top: 60px;
+}

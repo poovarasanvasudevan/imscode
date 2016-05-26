@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos2/opencart/!svn/ver/170/trunk/shpt/catalog/view/theme/shpt/template/product
+END
+books.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/view/theme/shpt/template/product/books.tpl
+END
+category.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos2/opencart/!svn/ver/65/trunk/shpt/catalog/view/theme/shpt/template/product/category.tpl
+END
+pricerange.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/view/theme/shpt/template/product/pricerange.tpl
+END
+product.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos2/opencart/!svn/ver/170/trunk/shpt/catalog/view/theme/shpt/template/product/product.tpl
+END
+product_orig.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/view/theme/shpt/template/product/product_orig.tpl
+END
+special.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/view/theme/shpt/template/product/special.tpl
+END
+review.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/view/theme/shpt/template/product/review.tpl
+END
+search.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos2/opencart/!svn/ver/93/trunk/shpt/catalog/view/theme/shpt/template/product/search.tpl
+END
+compare.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/view/theme/shpt/template/product/compare.tpl
+END
+manufacturer_info.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/view/theme/shpt/template/product/manufacturer_info.tpl
+END
+manufacturer_list.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/view/theme/shpt/template/product/manufacturer_list.tpl
+END

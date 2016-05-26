@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/model/account
+END
+order.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/model/account/order.php
+END
+customer_group.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/model/account/customer_group.php
+END
+return.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/model/account/return.php
+END
+recurring.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/model/account/recurring.php
+END
+customer.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/model/account/customer.php
+END
+reward.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/model/account/reward.php
+END
+address.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/model/account/address.php
+END
+transaction.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/model/account/transaction.php
+END
+download.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/model/account/download.php
+END

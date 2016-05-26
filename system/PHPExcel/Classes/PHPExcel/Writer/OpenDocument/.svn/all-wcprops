@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos2/opencart/!svn/ver/141/trunk/shpt/system/PHPExcel/Classes/PHPExcel/Writer/OpenDocument
+END
+Meta.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos2/opencart/!svn/ver/141/trunk/shpt/system/PHPExcel/Classes/PHPExcel/Writer/OpenDocument/Meta.php
+END
+Thumbnails.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos2/opencart/!svn/ver/141/trunk/shpt/system/PHPExcel/Classes/PHPExcel/Writer/OpenDocument/Thumbnails.php
+END
+Mimetype.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos2/opencart/!svn/ver/141/trunk/shpt/system/PHPExcel/Classes/PHPExcel/Writer/OpenDocument/Mimetype.php
+END
+Content.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos2/opencart/!svn/ver/141/trunk/shpt/system/PHPExcel/Classes/PHPExcel/Writer/OpenDocument/Content.php
+END
+Settings.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos2/opencart/!svn/ver/141/trunk/shpt/system/PHPExcel/Classes/PHPExcel/Writer/OpenDocument/Settings.php
+END
+MetaInf.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos2/opencart/!svn/ver/141/trunk/shpt/system/PHPExcel/Classes/PHPExcel/Writer/OpenDocument/MetaInf.php
+END
+Styles.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos2/opencart/!svn/ver/141/trunk/shpt/system/PHPExcel/Classes/PHPExcel/Writer/OpenDocument/Styles.php
+END
+WriterPart.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos2/opencart/!svn/ver/141/trunk/shpt/system/PHPExcel/Classes/PHPExcel/Writer/OpenDocument/WriterPart.php
+END

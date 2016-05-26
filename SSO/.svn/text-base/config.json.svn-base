@@ -1,0 +1,8 @@
+{
+  "HTTP_SERVER": "http://localhost:8080/projects/shpt_c/",
+  "HTTPS_SERVER": "http://localhost:8080/projects/shpt_c/",
+  "MYSQL_HOST": "localhost:8080",
+  "MYSQL_USER": "root",
+  "MYSQL_PASSWORD": "",
+  "MYSQL_DATABASE": "shptwbs"
+}

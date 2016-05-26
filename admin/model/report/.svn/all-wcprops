@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/repos2/opencart/!svn/ver/174/trunk/shpt/admin/model/report
+END
+customerreport.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos2/opencart/!svn/ver/67/trunk/shpt/admin/model/report/customerreport.php
+END
+return.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos2/opencart/!svn/ver/56/trunk/shpt/admin/model/report/return.php
+END
+product.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos2/opencart/!svn/ver/56/trunk/shpt/admin/model/report/product.php
+END
+customer.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos2/opencart/!svn/ver/56/trunk/shpt/admin/model/report/customer.php
+END
+product_wise_report.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos2/opencart/!svn/ver/174/trunk/shpt/admin/model/report/product_wise_report.php
+END
+coupon.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos2/opencart/!svn/ver/56/trunk/shpt/admin/model/report/coupon.php
+END
+customer_wise_report.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos2/opencart/!svn/ver/174/trunk/shpt/admin/model/report/customer_wise_report.php
+END
+stock.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos2/opencart/!svn/ver/56/trunk/shpt/admin/model/report/stock.php
+END
+affiliate.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos2/opencart/!svn/ver/56/trunk/shpt/admin/model/report/affiliate.php
+END
+online.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos2/opencart/!svn/ver/56/trunk/shpt/admin/model/report/online.php
+END
+sale.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos2/opencart/!svn/ver/96/trunk/shpt/admin/model/report/sale.php
+END
+shptreport.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos2/opencart/!svn/ver/174/trunk/shpt/admin/model/report/shptreport.php
+END

@@ -1,0 +1,58 @@
+<modification>
+  <id>sold out for out of stock product</id>
+  <version>0.2.1</version>
+  <vqmver>2.1.7</vqmver>
+  <author>Prabhu</author>
+  <file name="catalog/controller/product/category.php">
+    <operation>
+      <search position="after"><![CDATA[$this->data['products'][] = array(]]></search>
+      <add><![CDATA['quantity' => $result['quantity'],]]></add>
+    </operation>
+  </file>
+  <file name="catalog/view/theme/*/template/product/category.tpl">
+    <operation>
+      <search position="replace"><![CDATA[<input type="button" value="<?php echo $button_cart; ?>" onclick="addToCart('<?php echo $product['product_id']; ?>');" class="button" />]]></search>
+      <add><![CDATA[
+        <?php if ($product['quantity']>0) { ?>
+        <input type="button" value="<?php echo $button_cart; ?>" onclick="addToCart('<?php echo $product['product_id']; ?>');" class="button" />
+        <?php } else { ?>
+        <span style="color:red; font-weight:bold;">SOLD OUT</span>
+        <?php } ?>
+      ]]></add>
+    </operation>
+  </file>
+  <file name="catalog/controller/product/product.php">
+    <operation>
+      <search position="after"><![CDATA[$this->data['products'][] = array(]]></search>
+      <add><![CDATA['quantity' => $result['quantity'],]]></add>
+    </operation>
+    <operation>
+      <search position="before"><![CDATA[$product_info['quantity'] <= 0]]></search>
+      <add><![CDATA[$this->data['prod_quant'] = $product_info['quantity'];]]></add>
+    </operation>
+  </file>
+  <file name="catalog/controller/product/compare.php">
+    <operation>
+      <search position="after"><![CDATA[$this->data['products'][$product_id] = array(]]></search>
+      <add><![CDATA['quantity'   => $product_info['quantity'],]]></add>
+    </operation>
+  </file>
+  <file name="catalog/controller/account/wishlist.php">
+    <operation>
+      <search position="after"><![CDATA[$this->data['products'][] = array(]]></search>
+      <add><![CDATA['quantity' => $product_info['quantity'],]]></add>
+    </operation>
+  </file>
+  <file name="catalog/controller/product/search.php">
+    <operation>
+      <search position="after"><![CDATA[$this->data['products'][] = array(]]></search>
+      <add><![CDATA['quantity' => $result['quantity'],]]></add>
+    </operation>
+  </file>
+  <file name="catalog/controller/product/manufacturer.php">
+    <operation>
+      <search position="after"><![CDATA[$this->data['products'][] = array(]]></search>
+      <add><![CDATA['quantity' => $result['quantity'],]]></add>
+    </operation>
+  </file>
+</modification>

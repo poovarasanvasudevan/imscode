@@ -1,0 +1,47 @@
+<modification>
+	<id>OOS Products Footer Link</id>
+	<version>1.0</version>
+	<vqmver>2.1.6</vqmver>
+	<author>grgr</author>
+	<file name="catalog/controller/common/footer.php">
+        <operation>
+            <search position="before"><![CDATA[
+$this->data['text_newsletter'] = $this->language->get('text_newsletter');
+            ]]></search>
+            <add><![CDATA[
+		$this->data['text_oosproducts'] = $this->language->get('text_oosproducts');
+            ]]></add>
+        </operation>
+        <operation>
+            <search position="before"><![CDATA[
+$this->data['newsletter'] = $this->url->link('account/newsletter', '', 'SSL');
+            ]]></search>
+            <add><![CDATA[
+		$this->data['oosproducts'] = $this->url->link('product/oosproducts');
+            ]]></add>
+        </operation>
+	</file>
+	
+	<file name="catalog/language/english/common/footer.php">
+        <operation>
+            <search position="before"><![CDATA[
+$_['text_special']      = 'Specials';
+            ]]></search>
+            <add><![CDATA[
+				$_['text_oosproducts']      = 'Out Of Stock Products';
+            ]]></add>
+        </operation>
+	</file>
+
+	<file name="catalog/view/theme/*/template/common/footer.tpl">
+        <operation>
+            <search position="after" index="8"><![CDATA[
+</li>
+            ]]></search>
+            <add><![CDATA[
+      <li><a href="<?php echo $oosproducts; ?>"><?php echo $text_oosproducts; ?></a></li>
+            ]]></add>
+        </operation>
+	</file>
+	
+</modification>

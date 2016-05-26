@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/language/english/mail
+END
+customer.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/language/english/mail/customer.php
+END
+affiliate.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/language/english/mail/affiliate.php
+END
+forgotten.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/language/english/mail/forgotten.php
+END
+order.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/language/english/mail/order.php
+END
+voucher.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/language/english/mail/voucher.php
+END

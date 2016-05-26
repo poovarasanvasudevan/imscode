@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/view/theme/default/template/common
+END
+content_top.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/view/theme/default/template/common/content_top.tpl
+END
+content_bottom.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/view/theme/default/template/common/content_bottom.tpl
+END
+footer.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/view/theme/default/template/common/footer.tpl
+END
+maintenance.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/view/theme/default/template/common/maintenance.tpl
+END
+column_left.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/view/theme/default/template/common/column_left.tpl
+END
+header.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/view/theme/default/template/common/header.tpl
+END
+home.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/view/theme/default/template/common/home.tpl
+END
+success.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/view/theme/default/template/common/success.tpl
+END
+column_right.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/view/theme/default/template/common/column_right.tpl
+END

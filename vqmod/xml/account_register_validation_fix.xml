@@ -1,0 +1,267 @@
+<modification>
+	<id>Account Register Validation Fix</id>
+	<version>1.0</version>
+	<vqmver>2.1.5</vqmver>
+	<author>Straightlight</author>
+	
+	<file name="catalog/controller/account/register.php">
+		<operation>
+			<search position="replace"><![CDATA[$this->data['firstname'] = $this->request->post['firstname'];]]></search>
+			<add trim="true"><![CDATA[
+			$this->session->data['firstname'] = $this->request->post['firstname'];
+			]]>
+			</add>
+		</operation>
+		
+		<operation>
+			<search position="replace"><![CDATA[$this->data['lastname'] = $this->request->post['lastname'];]]></search>
+			<add trim="true"><![CDATA[
+			$this->session->data['lastname'] = $this->request->post['lastname'];
+			]]>
+			</add>
+		</operation>
+		
+		<operation>
+			<search position="replace"><![CDATA[$this->data['email'] = $this->request->post['email'];]]></search>
+			<add trim="true"><![CDATA[
+			$this->session->data['email'] = $this->request->post['email'];
+			]]>
+			</add>
+		</operation>
+		
+		<operation>
+			<search position="replace"><![CDATA[$this->data['telephone'] = $this->request->post['telephone'];]]></search>
+			<add trim="true"><![CDATA[
+			$this->session->data['telephone'] = $this->request->post['telephone'];
+			]]>
+			</add>
+		</operation>
+		
+		<operation>
+			<search position="replace"><![CDATA[$this->data['fax'] = $this->request->post['fax'];]]></search>
+			<add trim="true"><![CDATA[
+			$this->session->data['fax'] = $this->request->post['fax'];
+			]]>
+			</add>
+		</operation>
+		
+		<operation>
+			<search position="replace"><![CDATA[$this->data['company'] = $this->request->post['company'];]]></search>
+			<add trim="true"><![CDATA[
+			$this->session->data['company'] = $this->request->post['company'];
+			]]>
+			</add>
+		</operation>
+		
+		<operation>
+			<search position="replace"><![CDATA[$this->data['address_1'] = $this->request->post['address_1'];]]></search>
+			<add trim="true"><![CDATA[
+			$this->session->data['address_1'] = $this->request->post['address_1'];
+			]]>
+			</add>
+		</operation>
+		
+		<operation>
+			<search position="replace"><![CDATA[$this->data['address_2'] = $this->request->post['address_2'];]]></search>
+			<add trim="true"><![CDATA[
+			$this->session->data['address_2'] = $this->request->post['address_2'];
+			]]>
+			</add>
+		</operation>
+		
+		<operation>
+			<search position="replace"><![CDATA[$this->data['postcode'] = $this->request->post['postcode'];]]></search>
+			<add trim="true"><![CDATA[
+			$this->session->data['postcode'] = $this->request->post['postcode'];
+			]]>
+			</add>
+		</operation>
+		
+		<operation>
+			<search position="replace"><![CDATA[$this->data['city'] = $this->request->post['city'];]]></search>
+			<add trim="true"><![CDATA[
+			$this->session->data['city'] = $this->request->post['city'];
+			]]>
+			</add>
+		</operation>
+		
+		<operation>
+			<search position="replace"><![CDATA[$this->data['country_id'] = $this->request->post['country_id'];]]></search>
+			<add trim="true"><![CDATA[
+			$this->session->data['country_id'] = $this->request->post['country_id'];
+			]]>
+			</add>
+		</operation>
+		
+		<operation>
+			<search position="replace"><![CDATA[$this->data['zone_id'] = $this->request->post['zone_id'];]]></search>
+			<add trim="true"><![CDATA[
+			$this->session->data['zone_id'] = $this->request->post['zone_id']; 	
+			]]>
+			</add>
+		</operation>
+		
+		<operation>
+			<search position="replace"><![CDATA[$this->data['password'] = $this->request->post['password'];]]></search>
+			<add trim="true"><![CDATA[
+			$this->session->data['password'] = $this->request->post['password'];
+			]]>
+			</add>
+		</operation>
+		
+		<operation>
+			<search position="replace"><![CDATA[$this->data['confirm'] = $this->request->post['confirm'];]]></search>
+			<add trim="true"><![CDATA[
+			$this->session->data['confirm'] = $this->request->post['confirm'];
+			]]>
+			</add>
+		</operation>
+		
+		<operation>
+			<search position="replace"><![CDATA[$this->data['newsletter'] = $this->request->post['newsletter'];]]></search>
+			<add trim="true"><![CDATA[
+			$this->session->data['newsletter'] = $this->request->post['newsletter'];
+			]]>
+			</add>
+		</operation>
+		
+		<operation>
+			<search position="replace"><![CDATA[$this->data['agree'] = $this->request->post['agree'];]]></search>
+			<add trim="true"><![CDATA[
+			$this->session->data['agree'] = $this->request->post['agree'];
+			]]>
+			</add>
+		</operation>
+		
+		<operation>
+			<search position="after"><![CDATA[private function validate() {]]></search>
+			<add trim="true"><![CDATA[
+			$this->session->data['firstname']  = (!empty($this->request->post['firstname'])) ? $this->request->post['firstname'] : '';
+			$this->session->data['lastname']   = (!empty($this->request->post['lastname'])) ? $this->request->post['lastname'] : '';
+			$this->session->data['email']      = (!empty($this->request->post['email'])) ? $this->request->post['email'] : '';
+			$this->session->data['telephone']  = (!empty($this->request->post['telephone'])) ? $this->request->post['telephone'] : '';
+			$this->session->data['address_1']  = (!empty($this->request->post['address_1'])) ? $this->request->post['address_1'] : '';
+			$this->session->data['city']       = (!empty($this->request->post['city'])) ? $this->request->post['city'] : '';
+			$this->session->data['postcode']   = (!empty($this->request->post['postcode'])) ? $this->request->post['postcode'] : '';
+			$this->session->data['country_id'] = (!empty($this->request->post['country_id'])) ? $this->request->post['country_id'] : '';
+			$this->session->data['zone_id']    = (!empty($this->request->post['zone_id'])) ? $this->request->post['zone_id'] : '';
+			$this->session->data['password']   = (!empty($this->request->post['password'])) ? $this->request->post['password'] : '';
+			$this->session->data['confirm']    = (!empty($this->request->post['confirm'])) ? $this->request->post['confirm'] : '';
+			$this->session->data['agree']      = (!empty($this->request->post['agree'])) ? $this->request->post['agree'] : '';			
+			]]>
+			</add>
+		</operation>
+		
+		<operation>
+			<search position="replace"><![CDATA[if ((utf8_strlen($this->request->post['firstname']) < 1) || (utf8_strlen($this->request->post['firstname']) > 32)) {]]></search>
+			<add trim="true"><![CDATA[
+			if ((utf8_strlen($this->session->data['firstname']) < 1) || (utf8_strlen($this->session->data['firstname']) > 32)) {
+			]]>
+			</add>
+		</operation>
+		
+		<operation>
+			<search position="replace"><![CDATA[if ((utf8_strlen($this->request->post['lastname']) < 1) || (utf8_strlen($this->request->post['lastname']) > 32)) {]]></search>
+			<add trim="true"><![CDATA[
+			if ((utf8_strlen($this->session->data['lastname']) < 1) || (utf8_strlen($this->session->data['lastname']) > 32)) {
+			]]>
+			</add>
+		</operation>
+		
+		<operation>
+			<search position="replace"><![CDATA[if ((utf8_strlen($this->request->post['email']) > 96) || !preg_match('/^[^\@]+@.*\.[a-z]{2,6}$/i', $this->request->post['email'])) {]]></search>
+			<add trim="true"><![CDATA[
+			if ((utf8_strlen($this->session->data['email']) > 96) || !preg_match('/^[^\@]+@.*\.[a-z]{2,6}$/i', $this->session->data['email'])) {
+			]]>
+			</add>
+		</operation>
+		
+		<operation>
+			<search position="replace"><![CDATA[if ($this->model_account_customer->getTotalCustomersByEmail($this->request->post['email'])) {]]></search>
+			<add trim="true"><![CDATA[
+			if ($this->model_account_customer->getTotalCustomersByEmail($this->session->data['email'])) {
+			]]>
+			</add>
+		</operation>
+		
+		<operation>
+			<search position="replace"><![CDATA[if ((utf8_strlen($this->request->post['telephone']) < 3) || (utf8_strlen($this->request->post['telephone']) > 32)) {]]></search>
+			<add trim="true"><![CDATA[
+			if ((utf8_strlen($this->session->data['telephone']) < 3) || (utf8_strlen($this->session->data['telephone']) > 32)) {
+			]]>
+			</add>
+		</operation>
+		
+		<operation>
+			<search position="replace"><![CDATA[if ((utf8_strlen($this->request->post['address_1']) < 3) || (utf8_strlen($this->request->post['address_1']) > 128)) {]]></search>
+			<add trim="true"><![CDATA[
+			if ((utf8_strlen($this->session->data['address_1']) < 3) || (utf8_strlen($this->session->data['address_1']) > 128)) {
+			]]>
+			</add>
+		</operation>
+		
+		<operation>
+			<search position="replace"><![CDATA[if ((utf8_strlen($this->request->post['city']) < 2) || (utf8_strlen($this->request->post['city']) > 128)) {]]></search>
+			<add trim="true"><![CDATA[
+			if ((utf8_strlen($this->session->data['city']) < 2) || (utf8_strlen($this->session->data['city']) > 128)) {
+			]]>
+			</add>
+		</operation>
+		
+		<operation>
+			<search position="replace"><![CDATA[$country_info = $this->model_localisation_country->getCountry($this->request->post['country_id']);]]></search>
+			<add trim="true"><![CDATA[
+			$country_info = $this->model_localisation_country->getCountry($this->session->data['country_id']);
+			]]>
+			</add>
+		</operation>
+		
+		<operation>
+			<search position="replace"><![CDATA[if ($country_info && $country_info['postcode_required'] && (utf8_strlen($this->request->post['postcode']) < 2) || (utf8_strlen($this->request->post['postcode']) > 10)) {]]></search>
+			<add trim="true"><![CDATA[
+			if ($country_info && $country_info['postcode_required'] && (utf8_strlen($this->session->data['postcode']) < 2) || (utf8_strlen($this->session->data['postcode']) > 10)) {
+			]]>
+			</add>
+		</operation>
+		
+		<operation>
+			<search position="replace"><![CDATA[if ($this->request->post['country_id'] == '') {]]></search>
+			<add trim="true"><![CDATA[
+			if ($this->session->data['country_id'] == '') {
+			]]>
+			</add>
+		</operation>
+		
+		<operation>
+			<search position="replace"><![CDATA[if ($this->request->post['zone_id'] == '') {]]></search>
+			<add trim="true"><![CDATA[
+			if ($this->session->data['zone_id'] == '') {
+			]]>
+			</add>
+		</operation>
+		
+		<operation>
+			<search position="replace"><![CDATA[if ((utf8_strlen($this->request->post['password']) < 4) || (utf8_strlen($this->request->post['password']) > 20)) {]]></search>
+			<add trim="true"><![CDATA[
+			if ((utf8_strlen($this->session->data['password']) < 4) || (utf8_strlen($this->session->data['password']) > 20)) {
+			]]>
+			</add>
+		</operation>
+		
+		<operation>
+			<search position="replace"><![CDATA[if ($this->request->post['confirm'] != $this->request->post['password']) {]]></search>
+			<add trim="true"><![CDATA[
+			if ($this->session->data['confirm'] != $this->session->data['password']) {
+			]]>
+			</add>
+		</operation>
+		
+		<operation>
+			<search position="replace"><![CDATA[if ($information_info && !isset($this->request->post['agree'])) {]]></search>
+			<add trim="true"><![CDATA[
+			if ($information_info && !isset($this->session->data['agree'])) {
+			]]>
+			</add>
+		</operation>
+	</file>
+</modification>

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repos2/opencart/!svn/ver/104/trunk/shpt/admin/controller/common
+END
+footer.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos2/opencart/!svn/ver/56/trunk/shpt/admin/controller/common/footer.php
+END
+reset.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos2/opencart/!svn/ver/56/trunk/shpt/admin/controller/common/reset.php
+END
+forgotten.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos2/opencart/!svn/ver/56/trunk/shpt/admin/controller/common/forgotten.php
+END
+header.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos2/opencart/!svn/ver/104/trunk/shpt/admin/controller/common/header.php
+END
+home.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos2/opencart/!svn/ver/56/trunk/shpt/admin/controller/common/home.php
+END
+login.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos2/opencart/!svn/ver/56/trunk/shpt/admin/controller/common/login.php
+END
+logout.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos2/opencart/!svn/ver/56/trunk/shpt/admin/controller/common/logout.php
+END
+filemanager.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos2/opencart/!svn/ver/56/trunk/shpt/admin/controller/common/filemanager.php
+END

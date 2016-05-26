@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modification>
+	<id>Clear Cache</id>
+	<version>1.3.0</version>
+	<vqmver>1.0.0</vqmver>
+	<author>VBhadoria</author>
+	<file name="catalog/controller/common/header.php">
+		<operation>
+			<search position="before"><![CDATA[$this->data['base'] = $server]]></search>
+			<add><![CDATA[
+				if(!$this->customer->isLogged() && 
+					isset($this->request->get['route'])){
+					
+					$path = $this->request->get['route'];
+					$dspath = $_SERVER['QUERY_STRING'];
+					$scriptpath = $_SERVER['SCRIPT_NAME'];
+			
+						if (!startsWith($path, 'account')) {
+							// set in the session so we can go back
+							$this->session->data['dspath'] = $scriptpath.'?'.$dspath;
+							//$this->log->write("PATH".$this->session->data['dspath']);
+						}
+		}
+			]]></add>
+		</operation>
+		<operation>
+			<search position="before"><![CDATA[
+					?>
+			]]></search>
+			<add><![CDATA[
+				function startsWith($haystack, $needle)
+				{
+				    return $needle === "" || strpos($haystack, $needle) === 0;
+				}
+				function endsWith($haystack, $needle)
+				{
+				    return $needle === "" || substr($haystack, -strlen($needle)) === $needle;
+				}
+			]]></add>
+		</operation>
+	</file>
+	<file name="catalog/controller/account/login.php">
+		<operation info="replace with variable in session">
+			<search position="replace">
+				<![CDATA[
+					$this->redirect($this->url->link('account/account', '', 'SSL'))
+			]]></search>
+				<add><![CDATA[
+				    if (isset($this->session->data['dspath'])) {
+					   $this->redirect($this->session->data['dspath']);
+					} else 	{
+					   $this->redirect($this->url->link('common/home', '', 'SSL'));
+					}
+				]]></add>
+		</operation>
+	</file>
+</modification>

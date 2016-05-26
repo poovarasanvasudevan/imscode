@@ -1,0 +1,15 @@
+{
+  
+  "local": {
+    "HTTP_SERVER": "http://localhost:8080/projects/shpt/",
+    "HTTPS_SERVER": "http://localhost:8080/projects/shpt/",
+    "MYSQL_HOST": "localhost",
+    "MYSQL_USER": "root",
+    "MYSQL_PASSWORD": "",
+    "MYSQL_DATABASE": "shpt",
+    "MYSRCM_AUTH_SERVER": "http://profile.srcm.net/",
+    "MYSRCM_CLIENT_ID":"v1yyirY2Gh1hdfUcFjMXDDG8f7rqlieLpUJX3GoK",
+    "MYSRCM_CLIENT_SECRET":"tGO7aMVmPI0e1QKubBH8d2nlgmltILHyU1RRwWqpMj1HPB5M8P7VjbUhDGHFaPmjBCe8x0Pn0DQsB8gLwWcI6Rb3K2zzidy9myMI5V9tU8Vk9Kh4MXgNxqtsT2oGlsdm"
+  }
+  
+}

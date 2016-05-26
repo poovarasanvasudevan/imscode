@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos2/opencart/!svn/ver/160/trunk/shpt/catalog/controller/product
+END
+oosproducts.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/controller/product/oosproducts.php
+END
+search.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/controller/product/search.php
+END
+compare.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/controller/product/compare.php
+END
+manufacturer.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/controller/product/manufacturer.php
+END
+category.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/controller/product/category.php
+END
+pricerange.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/controller/product/pricerange.php
+END
+product.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos2/opencart/!svn/ver/160/trunk/shpt/catalog/controller/product/product.php
+END
+special.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/controller/product/special.php
+END

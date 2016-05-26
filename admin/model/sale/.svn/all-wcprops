@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/repos2/opencart/!svn/ver/180/trunk/shpt/admin/model/sale
+END
+customer_group.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos2/opencart/!svn/ver/56/trunk/shpt/admin/model/sale/customer_group.php
+END
+voucher_theme.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos2/opencart/!svn/ver/56/trunk/shpt/admin/model/sale/voucher_theme.php
+END
+return.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos2/opencart/!svn/ver/56/trunk/shpt/admin/model/sale/return.php
+END
+recurring.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos2/opencart/!svn/ver/56/trunk/shpt/admin/model/sale/recurring.php
+END
+customer.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos2/opencart/!svn/ver/56/trunk/shpt/admin/model/sale/customer.php
+END
+fraud.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos2/opencart/!svn/ver/56/trunk/shpt/admin/model/sale/fraud.php
+END
+coupon.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos2/opencart/!svn/ver/56/trunk/shpt/admin/model/sale/coupon.php
+END
+affiliate.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos2/opencart/!svn/ver/56/trunk/shpt/admin/model/sale/affiliate.php
+END
+invoice_list.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos2/opencart/!svn/ver/56/trunk/shpt/admin/model/sale/invoice_list.php
+END
+customer_ban_ip.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos2/opencart/!svn/ver/56/trunk/shpt/admin/model/sale/customer_ban_ip.php
+END
+customer_blacklist.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos2/opencart/!svn/ver/56/trunk/shpt/admin/model/sale/customer_blacklist.php
+END
+order.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos2/opencart/!svn/ver/180/trunk/shpt/admin/model/sale/order.php
+END
+voucher.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos2/opencart/!svn/ver/56/trunk/shpt/admin/model/sale/voucher.php
+END

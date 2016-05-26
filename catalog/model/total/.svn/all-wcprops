@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/repos2/opencart/!svn/ver/119/trunk/shpt/catalog/model/total
+END
+shipping.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/model/total/shipping.php
+END
+coupon.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/model/total/coupon.php
+END
+total.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/model/total/total.php
+END
+handling.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/model/total/handling.php
+END
+reward.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/model/total/reward.php
+END
+klarna_fee.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/model/total/klarna_fee.php
+END
+credit.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/model/total/credit.php
+END
+low_order_fee.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/model/total/low_order_fee.php
+END
+voucher.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/model/total/voucher.php
+END
+sub_total.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos2/opencart/!svn/ver/56/trunk/shpt/catalog/model/total/sub_total.php
+END
+tax.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos2/opencart/!svn/ver/119/trunk/shpt/catalog/model/total/tax.php
+END

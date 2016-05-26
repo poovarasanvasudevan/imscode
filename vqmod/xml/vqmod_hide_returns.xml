@@ -1,0 +1,18 @@
+<modification>
+
+    <id>Hides the Returns entry from footer</id>
+    <version>1.0</version>
+    <vqmver>2.4.1</vqmver>
+    <author>doeme</author>
+	
+		<file name="catalog/view/theme/default/template/common/footer.tpl">
+		<operation>
+			<search position="replace"><![CDATA[
+			<li><a href="<?php echo $return; ?>"><?php echo $text_return; ?></a></li>
+			]]></search>
+			<add><![CDATA[
+			]]></add>
+		</operation>
+		</file>
+	
+</modification>

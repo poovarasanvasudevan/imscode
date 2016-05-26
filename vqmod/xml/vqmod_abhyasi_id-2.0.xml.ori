@@ -1,0 +1,941 @@
+<modification>
+
+	<id>vQmod - Abhyasi Id</id>
+	<version>1.1</version>
+	<vqmver>2.4.1</vqmver>
+	<author>Prabhu</author>
+
+	<file name="admin/controller/sale/order.php">
+        <operation>
+            <search position="after"><![CDATA[
+         	$this->data['entry_customer_group'] = $this->language->get('entry_customer_group');
+            ]]></search>
+            <add><![CDATA[
+			$this->data['entry_abhyasi_id'] = $this->language->get('entry_abhyasi_id');
+			]]></add>
+        </operation>
+        <operation>
+            <search position="before"><![CDATA[
+			if (isset($this->error['firstname'])) {
+            ]]></search>
+            <add><![CDATA[
+			if (isset($this->error['abhyasi_id'])) {
+				$this->data['error_abhyasi_id'] = $this->error['abhyasi_id'];
+			} else {
+				$this->data['error_abhyasi_id'] = '';
+			}
+			]]></add>
+        </operation>
+        <operation>
+            <search position="before"><![CDATA[
+         	if (isset($this->error['payment_firstname'])) {
+            ]]></search>
+            <add><![CDATA[
+			if (isset($this->error['payment_abhyasi_id'])) {
+				$this->data['error_payment_abhyasi_id'] = $this->error['payment_abhyasi_id'];
+			} else {
+				$this->data['error_payment_abhyasi_id'] = '';
+			}
+			]]></add>
+        </operation>
+        <operation>
+            <search position="before"><![CDATA[
+         	if (isset($this->error['shipping_firstname'])) {
+            ]]></search>
+            <add><![CDATA[
+			if (isset($this->error['shipping_abhyasi_id'])) {
+				$this->data['error_shipping_abhyasi_id'] = $this->error['shipping_abhyasi_id'];
+			} else {
+				$this->data['error_shipping_abhyasi_id'] = '';
+			}
+			]]></add>
+        </operation>
+        <operation>
+            <search position="before"><![CDATA[
+         	$this->data['text_firstname'] = $this->language->get('text_firstname');
+            ]]></search>
+            <add><![CDATA[
+			$this->data['text_abhyasi_id'] = $this->language->get('text_abhyasi_id');
+			]]></add>
+        </operation>
+	</file>
+	<file name="admin/controller/sale/affiliate.php">
+        <operation>
+            <search position="before"><![CDATA[
+         	$this->data['entry_firstname'] = $this->language->get('entry_firstname');
+            ]]></search>
+            <add><![CDATA[
+			$this->data['entry_abhyasi_id'] = $this->language->get('entry_abhyasi_id');
+			]]></add>
+        </operation>
+        <operation>
+            <search position="before"><![CDATA[
+         	if (isset($this->error['firstname'])) {
+            ]]></search>
+            <add><![CDATA[
+			if (isset($this->error['abhyasi_id'])) {
+				$this->data['error_abhyasi_id'] = $this->error['abhyasi_id'];
+			} else {
+				$this->data['error_abhyasi_id'] = '';
+			}
+			]]></add>
+        </operation>
+        <operation>
+            <search position="before"><![CDATA[
+         	if (isset($this->request->post['firstname'])) {
+            ]]></search>
+            <add><![CDATA[
+			if (isset($this->request->post['abhyasi_id'])) {
+				$this->data['abhyasi_id'] = $this->request->post['abhyasi_id'];
+			} elseif (!empty($affiliate_info)) {
+				$this->data['abhyasi_id'] = $affiliate_info['abhyasi_id'];
+			} else {
+				$this->data['abhyasi_id'] = '';
+			}
+			]]></add>
+        </operation>
+        <operation>
+            <search position="before"><![CDATA[
+         	if ((utf8_strlen($this->request->post['firstname']) < 1) || (utf8_strlen($this->request->post['firstname']) > 32)) {
+            ]]></search>
+            <add><![CDATA[
+			if ((utf8_strlen($this->request->post['abhyasi_id']) < 1) || (utf8_strlen($this->request->post['abhyasi_id']) > 32)) {
+    			$this->error['abhyasi_id'] = $this->language->get('error_abhyasi_id');
+    		}
+			]]></add>
+        </operation>
+	</file>
+	<file name="admin/controller/sale/customer.php">
+        <operation>
+            <search position="before"><![CDATA[
+         	$this->data['entry_firstname'] = $this->language->get('entry_firstname');
+            ]]></search>
+            <add><![CDATA[
+			$this->data['entry_abhyasi_id'] = $this->language->get('entry_abhyasi_id');
+			]]></add>
+        </operation>
+        <operation>
+            <search position="before"><![CDATA[
+         	if (isset($this->error['firstname'])) {
+            ]]></search>
+            <add><![CDATA[
+			if (isset($this->error['abhyasi_id'])) {
+				$this->data['error_abhyasi_id'] = $this->error['abhyasi_id'];
+			} else {
+				$this->data['error_abhyasi_id'] = '';
+			}
+			]]></add>
+        </operation>
+        <operation>
+            <search position="before"><![CDATA[
+         	if (isset($this->error['address_firstname'])) {
+            ]]></search>
+            <add><![CDATA[
+			if (isset($this->error['address_abhyasi_id'])) {
+				$this->data['error_address_abhyasi_id'] = $this->error['address_abhyasi_id'];
+			} else {
+				$this->data['error_address_abhyasi_id'] = '';
+			}
+			]]></add>
+        </operation>
+        <operation>
+            <search position="before"><![CDATA[
+         	if (isset($this->request->post['firstname'])) {
+            ]]></search>
+            <add><![CDATA[
+			if (isset($this->request->post['abhyasi_id'])) {
+    			$this->data['abhyasi_id'] = $this->request->post['abhyasi_id'];
+    		} elseif (!empty($customer_info)) {
+    			$this->data['abhyasi_id'] = $customer_info['abhyasi_id'];
+    		} else {
+    			$this->data['abhyasi_id'] = '';
+    		}
+			]]></add>
+        </operation>
+        <operation>
+            <search position="before"><![CDATA[
+         	if ((utf8_strlen($this->request->post['firstname']) < 1) || (utf8_strlen($this->request->post['firstname']) > 32)) {
+            ]]></search>
+            <add><![CDATA[
+			if ((utf8_strlen($this->request->post['abhyasi_id']) < 1) || (utf8_strlen($this->request->post['abhyasi_id']) > 32)) {
+    			$this->error['abhyasi_id'] = $this->language->get('error_abhyasi_id');
+    		}
+			]]></add>
+        </operation>
+        <operation>
+            <search position="before"><![CDATA[
+         	if ((utf8_strlen($value['firstname']) < 1) || (utf8_strlen($value['firstname']) > 32)) {
+            ]]></search>
+            <add><![CDATA[
+			if ((utf8_strlen($value['abhyasi_id']) < 9) || (utf8_strlen($value['abhyasi_id']) > 9)) {
+				$this->error['address_abhyasi_id'][$key] = $this->language->get('error_abhyasi_id');
+			}
+			]]></add>
+        </operation>
+        <operation>
+            <search position="before"><![CDATA[
+         	'firstname'         => $result['firstname'],
+            ]]></search>
+            <add><![CDATA[
+			'abhyasi_id'         => $result['abhyasi_id'],
+			]]></add>
+        </operation>
+	</file>
+	<file name="admin/controller/user/user.php">
+        <operation>
+            <search position="before"><![CDATA[
+         	$this->data['entry_firstname'] = $this->language->get('entry_firstname');
+            ]]></search>
+            <add><![CDATA[
+			$this->data['entry_abhyasi_id'] = $this->language->get('entry_abhyasi_id');
+			]]></add>
+        </operation>
+        <operation>
+            <search position="before"><![CDATA[
+         	if (isset($this->error['firstname'])) {
+            ]]></search>
+            <add><![CDATA[
+			if (isset($this->error['abhyasi_id'])) {
+				$this->data['error_abhyasi_id'] = $this->error['abhyasi_id'];
+			} else {
+				$this->data['error_abhyasi_id'] = '';
+			}
+			]]></add>
+        </operation>
+        <operation>
+            <search position="before"><![CDATA[
+         	if (isset($this->request->post['firstname'])) {
+            ]]></search>
+            <add><![CDATA[
+			if (isset($this->request->post['abhyasi_id'])) {
+				$this->data['abhyasi_id'] = $this->request->post['abhyasi_id'];
+			} elseif (!empty($user_info)) {
+				$this->data['abhyasi_id'] = $user_info['abhyasi_id'];
+			} else {
+				$this->data['abhyasi_id'] = '';
+			}
+			]]></add>
+        </operation>
+        <operation>
+            <search position="before"><![CDATA[
+         	if ((utf8_strlen($this->request->post['firstname']) < 1) || (utf8_strlen($this->request->post['firstname']) > 32)) {
+            ]]></search>
+            <add><![CDATA[
+			if ((utf8_strlen($this->request->post['abhyasi_id']) < 1) || (utf8_strlen($this->request->post['abhyasi_id']) > 32)) {
+				$this->error['abhyasi_id'] = $this->language->get('error_abhyasi_id');
+			}
+			]]></add>
+        </operation>
+    </file>
+    <file name="admin/language/english/sale/affiliate.php">
+        <operation>
+            <search position="after"><![CDATA[
+         	// Entry
+            ]]></search>
+            <add><![CDATA[
+			$_['entry_abhyasi_id']           = 'Abhyasi Id:';
+			]]></add>
+        </operation>
+        <operation>
+            <search position="before"><![CDATA[
+         	$_['error_firstname']           = 'First Name must be between 1 and 32 characters!';
+            ]]></search>
+            <add><![CDATA[
+			$_['error_abhyasi_id']          = 'Abhyasi Id must be 9 characters long!';
+			]]></add>
+        </operation>
+    </file>
+    <file name="admin/language/english/sale/customer.php">
+        <operation>
+            <search position="after"><![CDATA[
+         	// Entry
+            ]]></search>
+            <add><![CDATA[
+			$_['entry_abhyasi_id']       = 'Abhyasi Id:';
+			]]></add>
+        </operation>
+        <operation>
+            <search position="before"><![CDATA[
+         	$_['error_firstname']       = 'First Name must be between 1 and 32 characters!';
+            ]]></search>
+            <add><![CDATA[
+			$_['error_abhyasi_id']       = 'Abhyasi Id must be 9 characters long!';
+			]]></add>
+        </operation>
+    </file>
+    <file name="admin/language/english/sale/order.php">
+        <operation>
+            <search position="before"><![CDATA[
+         	$_['text_firstname']                          = 'First Name:';
+            ]]></search>
+            <add><![CDATA[
+			$_['text_abhyasi_id']                          = 'Abhyasi Id:';
+			]]></add>
+        </operation>
+        <operation>
+            <search position="before"><![CDATA[
+         	$_['entry_firstname']                         = 'First Name:';
+            ]]></search>
+            <add><![CDATA[
+			$_['entry_abhyasi_id']                         = 'Abhyasi Id:';
+			]]></add>
+        </operation>
+        <operation>
+            <search position="before"><![CDATA[
+         	$_['error_firstname']                         = 'First Name must be between 1 and 32 characters!';
+            ]]></search>
+            <add><![CDATA[
+			$_['error_abhyasi_id']                        = 'Abhyasi Id must be 9 characters long!';
+			]]></add>
+        </operation>
+    </file>
+    <file name="admin/language/english/sale/return.php">
+        <operation>
+            <search position="before"><![CDATA[
+         	$_['entry_firstname']     = 'First Name:';
+            ]]></search>
+            <add><![CDATA[
+			$_['entry_abhyasi_id']    = 'Abhyasi Id:';
+			]]></add>
+        </operation>
+    </file>
+    <file name="admin/model/sale/customer.php">
+        <operation>
+            <search position="replace"><![CDATA[
+         	$this->db->query("INSERT INTO " . DB_PREFIX . "customer SET firstname = '" . $this->db->escape($data['firstname']) . "', lastname = '" . $this->db->escape($data['lastname']) . "', email = '" . $this->db->escape($data['email']) . "', telephone = '" . $this->db->escape($data['telephone']) . "', fax = '" . $this->db->escape($data['fax']) . "', newsletter = '" . (int)$data['newsletter'] . "', customer_group_id = '" . (int)$data['customer_group_id'] . "', salt = '" . $this->db->escape($salt = substr(md5(uniqid(rand(), true)), 0, 9)) . "', password = '" . $this->db->escape(sha1($salt . sha1($salt . sha1($data['password'])))) . "', status = '" . (int)$data['status'] . "', date_added = NOW()");
+            ]]></search>
+            <add><![CDATA[
+			$this->db->query("INSERT INTO " . DB_PREFIX . "customer SET abhyasi_id = '" . $this->db->escape($data['abhyasi_id']) . "', firstname = '" . $this->db->escape($data['firstname']) . "', lastname = '" . $this->db->escape($data['lastname']) . "', email = '" . $this->db->escape($data['email']) . "', telephone = '" . $this->db->escape($data['telephone']) . "', fax = '" . $this->db->escape($data['fax']) . "', newsletter = '" . (int)$data['newsletter'] . "', customer_group_id = '" . (int)$data['customer_group_id'] . "', salt = '" . $this->db->escape($salt = substr(md5(uniqid(rand(), true)), 0, 9)) . "', password = '" . $this->db->escape(sha1($salt . sha1($salt . sha1($data['password'])))) . "', status = '" . (int)$data['status'] . "', date_added = NOW()");
+			]]></add>
+        </operation>
+        <operation>
+            <search position="replace"><![CDATA[
+         	$this->db->query("INSERT INTO " . DB_PREFIX . "address SET customer_id = '" . (int)$customer_id . "', firstname = '" . $this->db->escape($address['firstname']) . "', lastname = '" . $this->db->escape($address['lastname']) . "', company = '" . $this->db->escape($address['company']) . "', company_id = '" . $this->db->escape($address['company_id']) . "', tax_id = '" . $this->db->escape($address['tax_id']) . "', address_1 = '" . $this->db->escape($address['address_1']) . "', address_2 = '" . $this->db->escape($address['address_2']) . "', city = '" . $this->db->escape($address['city']) . "', postcode = '" . $this->db->escape($address['postcode']) . "', country_id = '" . (int)$address['country_id'] . "', zone_id = '" . (int)$address['zone_id'] . "'");
+            ]]></search>
+            <add><![CDATA[
+			$this->db->query("INSERT INTO " . DB_PREFIX . "address SET customer_id = '" . (int)$customer_id . "', abhyasi_id = '" . $this->db->escape($address['abhyasi_id']) . "', firstname = '" . $this->db->escape($address['firstname']) . "', lastname = '" . $this->db->escape($address['lastname']) . "', company = '" . $this->db->escape($address['company']) . "', company_id = '" . $this->db->escape($address['company_id']) . "', tax_id = '" . $this->db->escape($address['tax_id']) . "', address_1 = '" . $this->db->escape($address['address_1']) . "', address_2 = '" . $this->db->escape($address['address_2']) . "', city = '" . $this->db->escape($address['city']) . "', postcode = '" . $this->db->escape($address['postcode']) . "', country_id = '" . (int)$address['country_id'] . "', zone_id = '" . (int)$address['zone_id'] . "'");
+			]]></add>
+        </operation>
+        <operation>
+            <search position="replace"><![CDATA[
+         	$this->db->query("UPDATE " . DB_PREFIX . "customer SET firstname = '" . $this->db->escape($data['firstname']) . "', lastname = '" . $this->db->escape($data['lastname']) . "', email = '" . $this->db->escape($data['email']) . "', telephone = '" . $this->db->escape($data['telephone']) . "', fax = '" . $this->db->escape($data['fax']) . "', newsletter = '" . (int)$data['newsletter'] . "', customer_group_id = '" . (int)$data['customer_group_id'] . "', status = '" . (int)$data['status'] . "' WHERE customer_id = '" . (int)$customer_id . "'");
+            ]]></search>
+            <add><![CDATA[
+			$this->db->query("UPDATE " . DB_PREFIX . "customer SET abhyasi_id = '" . $this->db->escape($data['abhyasi_id']) . "', firstname = '" . $this->db->escape($data['firstname']) . "', lastname = '" . $this->db->escape($data['lastname']) . "', email = '" . $this->db->escape($data['email']) . "', telephone = '" . $this->db->escape($data['telephone']) . "', fax = '" . $this->db->escape($data['fax']) . "', newsletter = '" . (int)$data['newsletter'] . "', customer_group_id = '" . (int)$data['customer_group_id'] . "', status = '" . (int)$data['status'] . "' WHERE customer_id = '" . (int)$customer_id . "'");
+			]]></add>
+        </operation>
+        <operation>
+            <search position="replace"><![CDATA[
+         	$this->db->query("INSERT INTO " . DB_PREFIX . "address SET address_id = '" . (int)$address['address_id'] . "', customer_id = '" . (int)$customer_id . "', firstname = '" . $this->db->escape($address['firstname']) . "', lastname = '" . $this->db->escape($address['lastname']) . "', company = '" . $this->db->escape($address['company']) . "', company_id = '" . $this->db->escape($address['company_id']) . "', tax_id = '" . $this->db->escape($address['tax_id']) . "', address_1 = '" . $this->db->escape($address['address_1']) . "', address_2 = '" . $this->db->escape($address['address_2']) . "', city = '" . $this->db->escape($address['city']) . "', postcode = '" . $this->db->escape($address['postcode']) . "', country_id = '" . (int)$address['country_id'] . "', zone_id = '" . (int)$address['zone_id'] . "'");
+            ]]></search>
+            <add><![CDATA[
+			$this->db->query("INSERT INTO " . DB_PREFIX . "address SET address_id = '" . (int)$address['address_id'] . "', customer_id = '" . (int)$customer_id . "', abhyasi_id = '" . $this->db->escape($address['abhyasi_id']) . "', firstname = '" . $this->db->escape($address['firstname']) . "', lastname = '" . $this->db->escape($address['lastname']) . "', company = '" . $this->db->escape($address['company']) . "', company_id = '" . $this->db->escape($address['company_id']) . "', tax_id = '" . $this->db->escape($address['tax_id']) . "', address_1 = '" . $this->db->escape($address['address_1']) . "', address_2 = '" . $this->db->escape($address['address_2']) . "', city = '" . $this->db->escape($address['city']) . "', postcode = '" . $this->db->escape($address['postcode']) . "', country_id = '" . (int)$address['country_id'] . "', zone_id = '" . (int)$address['zone_id'] . "'");
+			]]></add>
+        </operation>
+        <operation>
+            <search position="before"><![CDATA[
+         	'firstname'      => $address_query->row['firstname'],
+            ]]></search>
+            <add><![CDATA[
+			'abhyasi_id'     => $address_query->row['abhyasi_id'],
+			]]></add>
+        </operation>
+    </file>
+    <file name="admin/model/user/user.php">
+        <operation>
+            <search position="replace"><![CDATA[
+         	$this->db->query("INSERT INTO `" . DB_PREFIX . "user` SET username = '" . $this->db->escape($data['username']) . "', salt = '" . $this->db->escape($salt = substr(md5(uniqid(rand(), true)), 0, 9)) . "', password = '" . $this->db->escape(sha1($salt . sha1($salt . sha1($data['password'])))) . "', firstname = '" . $this->db->escape($data['firstname']) . "', lastname = '" . $this->db->escape($data['lastname']) . "', email = '" . $this->db->escape($data['email']) . "', user_group_id = '" . (int)$data['user_group_id'] . "', status = '" . (int)$data['status'] . "', date_added = NOW()");
+            ]]></search>
+            <add><![CDATA[
+			$this->db->query("INSERT INTO `" . DB_PREFIX . "user` SET username = '" . $this->db->escape($data['username']) . "', salt = '" . $this->db->escape($salt = substr(md5(uniqid(rand(), true)), 0, 9)) . "', password = '" . $this->db->escape(sha1($salt . sha1($salt . sha1($data['password'])))) . "', abhyasi_id = '" . $this->db->escape($data['abhyasi_id']) . "', firstname = '" . $this->db->escape($data['firstname']) . "', lastname = '" . $this->db->escape($data['lastname']) . "', email = '" . $this->db->escape($data['email']) . "', user_group_id = '" . (int)$data['user_group_id'] . "', status = '" . (int)$data['status'] . "', date_added = NOW()");
+			]]></add>
+        </operation>
+        <operation>
+            <search position="replace"><![CDATA[
+         	$this->db->query("UPDATE `" . DB_PREFIX . "user` SET username = '" . $this->db->escape($data['username']) . "', firstname = '" . $this->db->escape($data['firstname']) . "', lastname = '" . $this->db->escape($data['lastname']) . "', email = '" . $this->db->escape($data['email']) . "', user_group_id = '" . (int)$data['user_group_id'] . "', status = '" . (int)$data['status'] . "' WHERE user_id = '" . (int)$user_id . "'");
+            ]]></search>
+            <add><![CDATA[
+			$this->db->query("UPDATE `" . DB_PREFIX . "user` SET username = '" . $this->db->escape($data['username']) . "', abhyasi_id = '" . $this->db->escape($data['abhyasi_id']) . "', firstname = '" . $this->db->escape($data['firstname']) . "', lastname = '" . $this->db->escape($data['lastname']) . "', email = '" . $this->db->escape($data['email']) . "', user_group_id = '" . (int)$data['user_group_id'] . "', status = '" . (int)$data['status'] . "' WHERE user_id = '" . (int)$user_id . "'");
+			]]></add>
+        </operation>
+    </file>
+    <file name="catalog/controller/account/address.php">
+        <operation>
+            <search position="replace"><![CDATA[
+         	$format = '{firstname} {lastname}' . "\n" . '{company}' . "\n" . '{address_1}' . "\n" . '{address_2}' . "\n" . '{city} {postcode}' . "\n" . '{zone}' . "\n" . '{country}';
+            ]]></search>
+            <add><![CDATA[
+			$format = '{abhyasi_id}' . "\n" . '{firstname} {lastname}' . "\n" . '{company}' . "\n" . '{address_1}' . "\n" . '{address_2}' . "\n" . '{city} {postcode}' . "\n" . '{zone}' . "\n" . '{country}';
+			]]></add>
+        </operation>
+        <operation>
+            <search position="before"><![CDATA[
+         	'{firstname}',
+            ]]></search>
+            <add><![CDATA[
+			'{abhyasi_id}',
+			]]></add>
+        </operation>
+        <operation>
+            <search position="before"><![CDATA[
+         	'firstname' => $result['firstname'],
+            ]]></search>
+            <add><![CDATA[
+			'abhyasi_id' => $result['abhyasi_id'],
+			]]></add>
+        </operation>
+        <operation>
+            <search position="before"><![CDATA[
+         	$this->data['entry_firstname'] = $this->language->get('entry_firstname');
+            ]]></search>
+            <add><![CDATA[
+			$this->data['entry_abhyasi_id'] = $this->language->get('entry_abhyasi_id');
+			]]></add>
+        </operation>
+        <operation>
+            <search position="before"><![CDATA[
+         	if (isset($this->error['firstname'])) {
+            ]]></search>
+            <add><![CDATA[
+			if (isset($this->error['abhyasi_id'])) {
+    			$this->data['error_abhyasi_id'] = $this->error['abhyasi_id'];
+			} else {
+				$this->data['error_abhyasi_id'] = '';
+			}
+			]]></add>
+        </operation>
+        <operation>
+            <search position="before"><![CDATA[
+         	if (isset($this->request->post['firstname'])) {
+            ]]></search>
+            <add><![CDATA[
+			if (isset($this->request->post['abhyasi_id'])) {
+      			$this->data['abhyasi_id'] = $this->request->post['abhyasi_id'];
+    		} elseif (!empty($address_info)) {
+      			$this->data['abhyasi_id'] = $address_info['abhyasi_id'];
+    		} else {
+				$this->data['abhyasi_id'] = '';
+			}
+			]]></add>
+        </operation>
+        <operation>
+            <search position="after"><![CDATA[
+         	private function validateForm() {
+            ]]></search>
+            <add><![CDATA[
+			if ((utf8_strlen($this->request->post['abhyasi_id']) < 1) || (utf8_strlen($this->request->post['abhyasi_id']) > 32)) {
+      			$this->error['abhyasi_id'] = $this->language->get('error_abhyasi_id');
+    		}
+			]]></add>
+        </operation>
+	</file>
+	<file name="catalog/controller/account/edit.php">
+        <operation>
+            <search position="before"><![CDATA[
+         	$this->data['entry_firstname'] = $this->language->get('entry_firstname');
+            ]]></search>
+            <add><![CDATA[
+			$this->data['entry_abhyasi_id'] = $this->language->get('entry_abhyasi_id');
+			]]></add>
+        </operation>
+        <operation>
+            <search position="before"><![CDATA[
+         	if (isset($this->error['firstname'])) {
+            ]]></search>
+            <add><![CDATA[
+			if (isset($this->error['abhyasi_id'])) {
+				$this->data['error_abhyasi_id'] = $this->error['abhyasi_id'];
+			} else {
+				$this->data['error_abhyasi_id'] = '';
+			}
+			]]></add>
+        </operation>
+        <operation>
+            <search position="before"><![CDATA[
+         	if (isset($this->request->post['firstname'])) {
+            ]]></search>
+            <add><![CDATA[
+			if (isset($this->request->post['abhyasi_id'])) {
+				$this->data['abhyasi_id'] = $this->request->post['abhyasi_id'];
+			} elseif (isset($customer_info)) {
+				$this->data['abhyasi_id'] = $customer_info['abhyasi_id'];
+			} else {
+				$this->data['abhyasi_id'] = '';
+			}
+			]]></add>
+        </operation>
+        <operation>
+            <search position="after"><![CDATA[
+         	protected function validate() {
+            ]]></search>
+            <add><![CDATA[
+			if ((utf8_strlen($this->request->post['abhyasi_id']) < 1) || (utf8_strlen($this->request->post['abhyasi_id']) > 32)) {
+				$this->error['abhyasi_id'] = $this->language->get('error_abhyasi_id');
+			}
+			]]></add>
+        </operation>
+    </file>
+    <file name="catalog/controller/account/register.php">
+        <operation>
+            <search position="before"><![CDATA[$this->data['entry_firstname'] = $this->language->get('entry_firstname');]]></search>
+            <add><![CDATA[		$this->data['entry_abhyasi_id'] = $this->language->get('entry_abhyasi_id');]]></add>
+        </operation>
+        <operation>
+            <search position="before"><![CDATA[
+         	if (isset($this->error['firstname'])) {
+            ]]></search>
+            <add><![CDATA[			if (isset($this->error['abhyasi_id'])) {
+				$this->data['error_abhyasi_id'] = $this->error['abhyasi_id'];
+			} else {
+				$this->data['error_abhyasi_id'] = '';
+			}
+			]]></add>
+        </operation>
+        <operation>
+            <search position="before"><![CDATA[
+         	if (isset($this->request->post['firstname'])) {
+            ]]></search>
+            <add><![CDATA[
+			if (isset($this->request->post['abhyasi_id'])) {
+    			$this->data['abhyasi_id'] = $this->request->post['abhyasi_id'];
+			} else {
+				$this->data['abhyasi_id'] = '';
+			}
+			]]></add>
+        </operation>
+        <operation>
+            <search position="after"><![CDATA[
+         	protected function validate() {
+            ]]></search>
+            <add><![CDATA[
+			if ((utf8_strlen($this->request->post['abhyasi_id']) < 9) || (utf8_strlen($this->request->post['abhyasi_id']) > 9)) {
+      			$this->error['abhyasi_id'] = $this->language->get('error_abhyasi_id');
+    		}
+			]]></add>
+        </operation>                
+    </file>
+    <file name="catalog/controller/checkout/register.php">
+        <operation>
+            <search position="before"><![CDATA[
+         	$this->data['entry_firstname'] = $this->language->get('entry_firstname');
+            ]]></search>
+            <add><![CDATA[
+			$this->data['entry_abhyasi_id'] = $this->language->get('entry_abhyasi_id');
+			]]></add>
+        </operation>
+        <operation>
+            <search position="before"><![CDATA[
+         	if ((utf8_strlen($this->request->post['firstname']) < 1) || (utf8_strlen($this->request->post['firstname']) > 32)) {
+            ]]></search>
+            <add><![CDATA[
+			if ((utf8_strlen($this->request->post['abhyasi_id']) < 9) || (utf8_strlen($this->request->post['abhyasi_id']) > 9)) {
+				$json['error']['abhyasi_id'] = $this->language->get('error_abhyasi_id');
+			}
+			]]></add>
+        </operation>
+    </file>
+    <file name="catalog/controller/affiliate/edit.php">
+        <operation>
+            <search position="before"><![CDATA[
+         	$this->data['entry_firstname'] = $this->language->get('entry_firstname');
+            ]]></search>
+            <add><![CDATA[
+			$this->data['entry_abhyasi_id'] = $this->language->get('entry_abhyasi_id');
+			]]></add>
+        </operation>
+        <operation>
+            <search position="before"><![CDATA[
+         	if (isset($this->error['firstname'])) {
+            ]]></search>
+            <add><![CDATA[
+			if (isset($this->error['abhyasi_id'])) {
+				$this->data['error_abhyasi_id'] = $this->error['abhyasi_id'];
+			} else {
+				$this->data['error_abhyasi_id'] = '';
+			}
+			]]></add>
+        </operation>
+        <operation>
+            <search position="before"><![CDATA[
+         	if (isset($this->request->post['firstname'])) {
+            ]]></search>
+            <add><![CDATA[
+			if (isset($this->request->post['abhyasi_id'])) {
+				$this->data['firstname'] = $this->request->post['abhyasi_id'];
+			} elseif (!empty($affiliate_info)) {
+				$this->data['abhyasi_id'] = $affiliate_info['abhyasi_id'];
+			} else {
+				$this->data['abhyasi_id'] = '';
+			}
+			]]></add>
+        </operation>
+        <operation>
+            <search position="after"><![CDATA[
+         	protected function validate() {
+            ]]></search>
+            <add><![CDATA[
+			if ((utf8_strlen($this->request->post['abhyasi_id']) < 9) || (utf8_strlen($this->request->post['abhyasi_id']) > 9)) {
+				$this->error['abhyasi_id'] = $this->language->get('error_abhyasi_id');
+			}
+			]]></add>
+        </operation>
+    </file>
+    <file name="catalog/controller/affiliate/register.php">
+        <operation>
+            <search position="before"><![CDATA[
+         	$this->data['entry_firstname'] = $this->language->get('entry_firstname');
+            ]]></search>
+            <add><![CDATA[
+			$this->data['entry_abhyasi_id'] = $this->language->get('entry_abhyasi_id');
+			]]></add>
+        </operation>
+        <operation>
+            <search position="before"><![CDATA[
+         	if (isset($this->error['firstname'])) {
+            ]]></search>
+            <add><![CDATA[
+			if (isset($this->error['abhyasi_id'])) {
+				$this->data['error_abhyasi_id'] = $this->error['abhyasi_id'];
+			} else {
+				$this->data['error_abhyasi_id'] = '';
+			}
+			]]></add>
+        </operation>
+        <operation>
+            <search position="before"><![CDATA[
+         	if (isset($this->request->post['firstname'])) {
+            ]]></search>
+            <add><![CDATA[
+			if (isset($this->request->post['abhyasi_id'])) {
+    			$this->data['abhyasi_id'] = $this->request->post['abhyasi_id'];
+			} else {
+				$this->data['abhyasi_id'] = '';
+			}
+			]]></add>
+        </operation>
+        <operation>
+            <search position="after"><![CDATA[
+         	protected function validate() {
+            ]]></search>
+            <add><![CDATA[
+			if ((utf8_strlen($this->request->post['abhyasi_id']) < 9) || (utf8_strlen($this->request->post['abhyasi_id']) > 9)) {
+      			$this->error['abhyasi_id'] = $this->language->get('error_abhyasi_id');
+    		}
+			]]></add>
+        </operation>
+    </file>
+    <file name="catalog/language/english/account/address.php">
+        <operation>
+            <search position="after"><![CDATA[
+         	// Entry
+            ]]></search>
+            <add><![CDATA[
+			$_['entry_abhyasi_id']   = 'Abhyasi Id:';
+			]]></add>
+        </operation>
+        <operation>
+            <search position="before"><![CDATA[
+         	$_['error_firstname']   = 'First Name must be between 1 and 32 characters!';
+            ]]></search>
+            <add><![CDATA[
+			$_['error_abhyasi_id']   = 'Abhyasi Id must 9 characters!';
+			]]></add>
+        </operation>
+        <file name="catalog/language/english/account/edit.php">
+        <operation>
+            <search position="after"><![CDATA[
+         	// Entry
+            ]]></search>
+            <add><![CDATA[
+			$_['entry_abhyasi_id']  = 'Abhyasi Id:';
+			]]></add>
+        </operation>
+        <operation>
+            <search position="after"><![CDATA[
+         	// Error
+            ]]></search>
+            <add><![CDATA[
+			$_['error_abhyasi_id']  = 'Abhyasi Id must be 9 characters long!';
+			]]></add>
+        </operation>
+    </file>
+    <file name="catalog/language/english/account/register.php">
+        <operation>
+            <search position="after"><![CDATA[
+         	// Entry
+            ]]></search>
+            <add><![CDATA[
+			$_['entry_abhyasi_id']  = 'Abhyasi Id:';
+			]]></add>
+        </operation>
+        <operation>
+            <search position="after"><![CDATA[
+         	// Error
+            ]]></search>
+            <add><![CDATA[
+			$_['error_abhyasi_id']  = 'Abhyasi Id must be 9 characters long!';
+			]]></add>
+        </operation>
+    </file>
+    <file name="catalog/language/english/affiliate/register.php">
+        <operation>
+            <search position="after"><![CDATA[
+         	// Entry
+            ]]></search>
+            <add><![CDATA[
+			$_['entry_abhyasi_id']  = 'Abhyasi Id:';
+			]]></add>
+        </operation>
+        <operation>
+            <search position="after"><![CDATA[
+         	// Error
+            ]]></search>
+            <add><![CDATA[
+			$_['error_abhyasi_id']  = 'Abhyasi Id must be 9 characters long!';
+			]]></add>
+        </operation>
+    </file>
+    </file>
+    <file name="catalog/model/account/customer.php">
+        <operation>
+            <search position="replace"><![CDATA[
+         	$this->db->query("INSERT INTO " . DB_PREFIX . "customer SET store_id = '" . (int)$this->config->get('config_store_id') . "', firstname = '" . $this->db->escape($data['firstname']) . "', lastname = '" . $this->db->escape($data['lastname']) . "', email = '" . $this->db->escape($data['email']) . "', telephone = '" . $this->db->escape($data['telephone']) . "', fax = '" . $this->db->escape($data['fax']) . "', salt = '" . $this->db->escape($salt = substr(md5(uniqid(rand(), true)), 0, 9)) . "', password = '" . $this->db->escape(sha1($salt . sha1($salt . sha1($data['password'])))) . "', newsletter = '" . (isset($data['newsletter']) ? (int)$data['newsletter'] : 0) . "', customer_group_id = '" . (int)$customer_group_id . "', ip = '" . $this->db->escape($this->request->server['REMOTE_ADDR']) . "', status = '1', approved = '" . (int)!$customer_group_info['approval'] . "', date_added = NOW()");
+            ]]></search>
+            <add><![CDATA[
+			$this->db->query("INSERT INTO " . DB_PREFIX . "customer SET store_id = '" . (int)$this->config->get('config_store_id') . "', abhyasi_id = '" . $this->db->escape($data['abhyasi_id']) . "', firstname = '" . $this->db->escape($data['firstname']) . "', lastname = '" . $this->db->escape($data['lastname']) . "', email = '" . $this->db->escape($data['email']) . "', telephone = '" . $this->db->escape($data['telephone']) . "', fax = '" . $this->db->escape($data['fax']) . "', salt = '" . $this->db->escape($salt = substr(md5(uniqid(rand(), true)), 0, 9)) . "', password = '" . $this->db->escape(sha1($salt . sha1($salt . sha1($data['password'])))) . "', newsletter = '" . (isset($data['newsletter']) ? (int)$data['newsletter'] : 0) . "', customer_group_id = '" . (int)$customer_group_id . "', ip = '" . $this->db->escape($this->request->server['REMOTE_ADDR']) . "', status = '1', approved = '" . (int)!$customer_group_info['approval'] . "', date_added = NOW()");
+			]]></add>
+        </operation>
+        <operation>
+            <search position="replace"><![CDATA[
+         	$this->db->query("INSERT INTO " . DB_PREFIX . "address SET customer_id = '" . (int)$customer_id . "', firstname = '" . $this->db->escape($data['firstname']) . "', lastname = '" . $this->db->escape($data['lastname']) . "', company = '" . $this->db->escape($data['company']) . "', company_id = '" . $this->db->escape($data['company_id']) . "', tax_id = '" . $this->db->escape($data['tax_id']) . "', address_1 = '" . $this->db->escape($data['address_1']) . "', address_2 = '" . $this->db->escape($data['address_2']) . "', city = '" . $this->db->escape($data['city']) . "', postcode = '" . $this->db->escape($data['postcode']) . "', country_id = '" . (int)$data['country_id'] . "', zone_id = '" . (int)$data['zone_id'] . "'");
+            ]]></search>
+            <add><![CDATA[
+			$this->db->query("INSERT INTO " . DB_PREFIX . "address SET customer_id = '" . (int)$customer_id . "', abhyasi_id = '" . $this->db->escape($data['abhyasi_id']) . "', firstname = '" . $this->db->escape($data['firstname']) . "', lastname = '" . $this->db->escape($data['lastname']) . "', company = '" . $this->db->escape($data['company']) . "', company_id = '" . $this->db->escape($data['company_id']) . "', tax_id = '" . $this->db->escape($data['tax_id']) . "', address_1 = '" . $this->db->escape($data['address_1']) . "', address_2 = '" . $this->db->escape($data['address_2']) . "', city = '" . $this->db->escape($data['city']) . "', postcode = '" . $this->db->escape($data['postcode']) . "', country_id = '" . (int)$data['country_id'] . "', zone_id = '" . (int)$data['zone_id'] . "'");
+			]]></add>
+        </operation>
+        <operation>
+            <search position="replace"><![CDATA[
+         	$this->db->query("UPDATE " . DB_PREFIX . "customer SET firstname = '" . $this->db->escape($data['firstname']) . "', lastname = '" . $this->db->escape($data['lastname']) . "', email = '" . $this->db->escape($data['email']) . "', telephone = '" . $this->db->escape($data['telephone']) . "', fax = '" . $this->db->escape($data['fax']) . "' WHERE customer_id = '" . (int)$this->customer->getId() . "'");
+            ]]></search>
+            <add><![CDATA[
+			$this->db->query("UPDATE " . DB_PREFIX . "customer SET abhyasi_id = '" . $this->db->escape($data['abhyasi_id']) . "', firstname = '" . $this->db->escape($data['firstname']) . "', lastname = '" . $this->db->escape($data['lastname']) . "', email = '" . $this->db->escape($data['email']) . "', telephone = '" . $this->db->escape($data['telephone']) . "', fax = '" . $this->db->escape($data['fax']) . "' WHERE customer_id = '" . (int)$this->customer->getId() . "'");
+			]]></add>
+        </operation>
+    </file>
+    <file name="catalog/model/affiliate/affiliate.php">
+        <operation>
+            <search position="replace"><![CDATA[
+         	$this->db->query("INSERT INTO " . DB_PREFIX . "affiliate SET firstname = '" . $this->db->escape($data['firstname']) . "', lastname = '" . $this->db->escape($data['lastname']) . "', email = '" . $this->db->escape($data['email']) . "', telephone = '" . $this->db->escape($data['telephone']) . "', fax = '" . $this->db->escape($data['fax']) . "', salt = '" . $this->db->escape($salt = substr(md5(uniqid(rand(), true)), 0, 9)) . "', password = '" . $this->db->escape(sha1($salt . sha1($salt . sha1($data['password'])))) . "', company = '" . $this->db->escape($data['company']) . "', address_1 = '" . $this->db->escape($data['address_1']) . "', address_2 = '" . $this->db->escape($data['address_2']) . "', city = '" . $this->db->escape($data['city']) . "', postcode = '" . $this->db->escape($data['postcode']) . "', country_id = '" . (int)$data['country_id'] . "', zone_id = '" . (int)$data['zone_id'] . "', code = '" . $this->db->escape(uniqid()) . "', commission = '" . (float)$this->config->get('config_commission') . "', tax = '" . $this->db->escape($data['tax']) . "', payment = '" . $this->db->escape($data['payment']) . "', cheque = '" . $this->db->escape($data['cheque']) . "', paypal = '" . $this->db->escape($data['paypal']) . "', bank_name = '" . $this->db->escape($data['bank_name']) . "', bank_branch_number = '" . $this->db->escape($data['bank_branch_number']) . "', bank_swift_code = '" . $this->db->escape($data['bank_swift_code']) . "', bank_account_name = '" . $this->db->escape($data['bank_account_name']) . "', bank_account_number = '" . $this->db->escape($data['bank_account_number']) . "', status = '1', date_added = NOW()");
+            ]]></search>
+            <add><![CDATA[
+			$this->db->query("INSERT INTO " . DB_PREFIX . "affiliate SET abhyasi_id = '" . $this->db->escape($data['abhyasi_id']) . "', firstname = '" . $this->db->escape($data['firstname']) . "', lastname = '" . $this->db->escape($data['lastname']) . "', email = '" . $this->db->escape($data['email']) . "', telephone = '" . $this->db->escape($data['telephone']) . "', fax = '" . $this->db->escape($data['fax']) . "', salt = '" . $this->db->escape($salt = substr(md5(uniqid(rand(), true)), 0, 9)) . "', password = '" . $this->db->escape(sha1($salt . sha1($salt . sha1($data['password'])))) . "', company = '" . $this->db->escape($data['company']) . "', address_1 = '" . $this->db->escape($data['address_1']) . "', address_2 = '" . $this->db->escape($data['address_2']) . "', city = '" . $this->db->escape($data['city']) . "', postcode = '" . $this->db->escape($data['postcode']) . "', country_id = '" . (int)$data['country_id'] . "', zone_id = '" . (int)$data['zone_id'] . "', code = '" . $this->db->escape(uniqid()) . "', commission = '" . (float)$this->config->get('config_commission') . "', tax = '" . $this->db->escape($data['tax']) . "', payment = '" . $this->db->escape($data['payment']) . "', cheque = '" . $this->db->escape($data['cheque']) . "', paypal = '" . $this->db->escape($data['paypal']) . "', bank_name = '" . $this->db->escape($data['bank_name']) . "', bank_branch_number = '" . $this->db->escape($data['bank_branch_number']) . "', bank_swift_code = '" . $this->db->escape($data['bank_swift_code']) . "', bank_account_name = '" . $this->db->escape($data['bank_account_name']) . "', bank_account_number = '" . $this->db->escape($data['bank_account_number']) . "', status = '1', date_added = NOW()");
+			]]></add>
+        </operation>
+        <operation>
+            <search position="replace"><![CDATA[
+         	$this->db->query("UPDATE " . DB_PREFIX . "affiliate SET firstname = '" . $this->db->escape($data['firstname']) . "', lastname = '" . $this->db->escape($data['lastname']) . "', email = '" . $this->db->escape($data['email']) . "', telephone = '" . $this->db->escape($data['telephone']) . "', fax = '" . $this->db->escape($data['fax']) . "', company = '" . $this->db->escape($data['company']) . "', address_1 = '" . $this->db->escape($data['address_1']) . "', address_2 = '" . $this->db->escape($data['address_2']) . "', city = '" . $this->db->escape($data['city']) . "', postcode = '" . $this->db->escape($data['postcode']) . "', country_id = '" . (int)$data['country_id'] . "', zone_id = '" . (int)$data['zone_id'] . "' WHERE affiliate_id = '" . (int)$this->affiliate->getId() . "'");
+            ]]></search>
+            <add><![CDATA[
+			$this->db->query("UPDATE " . DB_PREFIX . "affiliate SET abhyasi_id = '" . $this->db->escape($data['abhyasi_id']) . "', firstname = '" . $this->db->escape($data['firstname']) . "', lastname = '" . $this->db->escape($data['lastname']) . "', email = '" . $this->db->escape($data['email']) . "', telephone = '" . $this->db->escape($data['telephone']) . "', fax = '" . $this->db->escape($data['fax']) . "', company = '" . $this->db->escape($data['company']) . "', address_1 = '" . $this->db->escape($data['address_1']) . "', address_2 = '" . $this->db->escape($data['address_2']) . "', city = '" . $this->db->escape($data['city']) . "', postcode = '" . $this->db->escape($data['postcode']) . "', country_id = '" . (int)$data['country_id'] . "', zone_id = '" . (int)$data['zone_id'] . "' WHERE affiliate_id = '" . (int)$this->affiliate->getId() . "'");
+			]]></add>
+        </operation>
+    </file>
+    <file name="system/library/affiliate.php">
+        <operation>
+            <search position="before"><![CDATA[
+         	private $firstname;
+            ]]></search>
+            <add><![CDATA[
+			private $abhyasi_id;
+			]]></add>
+        </operation>
+        <operation>
+            <search position="before" index="1"><![CDATA[
+         	$this->firstname = $affiliate_query->row['firstname'];
+            ]]></search>
+            <add><![CDATA[
+			$this->abhyasi_id = $affiliate_query->row['abhyasi_id'];
+			]]></add>
+        </operation>
+        <operation>
+            <search position="before" index="2"><![CDATA[
+         	$this->firstname = $affiliate_query->row['firstname'];
+            ]]></search>
+            <add><![CDATA[
+			$this->abhyasi_id = $affiliate_query->row['abhyasi_id'];
+			]]></add>
+        </operation>
+        <operation>
+            <search position="before"><![CDATA[
+         	$this->firstname = '';
+            ]]></search>
+            <add><![CDATA[
+			$this->abhyasi_id = '';
+			]]></add>
+        </operation>
+        <operation>
+            <search position="before"><![CDATA[
+         	public function getFirstName() {
+            ]]></search>
+            <add><![CDATA[
+			public function getAbhyasiId() {
+				return $this->abhyasi_id;
+  			}
+			]]></add>
+        </operation>
+    </file>
+    <file name="system/library/customer.php">
+        <operation>
+            <search position="before"><![CDATA[
+         	private $firstname;
+            ]]></search>
+            <add><![CDATA[
+			private $abhyasi_id;
+			]]></add>
+        </operation>
+        <operation>
+            <search position="before" index="1"><![CDATA[
+         	$this->firstname = $customer_query->row['firstname'];
+            ]]></search>
+            <add><![CDATA[
+			$this->abhyasi_id = $customer_query->row['abhyasi_id'];
+			]]></add>
+        </operation>
+        <operation>
+            <search position="before" index="2"><![CDATA[
+         	$this->firstname = $customer_query->row['firstname'];
+            ]]></search>
+            <add><![CDATA[
+			$this->abhyasi_id = $customer_query->row['abhyasi_id'];
+			]]></add>
+        </operation>
+        <operation>
+            <search position="before"><![CDATA[
+         	$this->firstname = '';
+            ]]></search>
+            <add><![CDATA[
+			$this->abhyasi_id = '';
+			]]></add>
+        </operation>
+        <operation>
+            <search position="before"><![CDATA[
+         	public function getFirstName() {
+            ]]></search>
+            <add><![CDATA[
+			public function getAbhyasiId() {
+				return $this->abhyasi_id;
+  			}
+			]]></add>
+        </operation>
+    </file>
+	<file name="admin/view/template/sale/customer_form.tpl">
+        <operation>
+            <search position="after" index="1"><![CDATA[
+         	<table class="form">
+            ]]></search>
+            <add><![CDATA[
+              <tr>
+                <td><span class="required">*</span> <?php echo $entry_abhyasi_id; ?></td>
+                <td><input type="text" name="abhyasi_id" value="<?php echo $abhyasi_id; ?>" />
+                  <?php if ($error_abhyasi_id) { ?>
+                  <span class="error"><?php echo $error_abhyasi_id; ?></span>
+                  <?php } ?></td>
+              </tr>
+           ]]></add>
+        </operation>
+        <operation>
+            <search position="after" index="2"><![CDATA[
+         	<table class="form">
+            ]]></search>
+            <add><![CDATA[
+              <tr>
+                <td><span class="required">*</span> <?php echo $entry_abhyasi_id; ?></td>
+                <td><input type="text" name="address[<?php echo $address_row; ?>][abhyasi_id]" value="<?php echo $address['abhyasi_id']; ?>" />
+                  <?php if (isset($error_address_abhyasi_id[$address_row])) { ?>
+                  <span class="error"><?php echo $error_address_abhyasi_id[$address_row]; ?></span>
+                  <?php } ?>
+                </td>
+              </tr>
+           ]]></add>
+        </operation>
+        <operation>
+            <search position="after"><![CDATA[
+         	html += '  <table class="form">';
+            ]]></search>
+            <add><![CDATA[
+			html += '    <tr>';
+		    html += '	   <td><span class="required">*</span> <?php echo $entry_abhyasi_id; ?></td>';
+		    html += '	   <td><input type="text" name="address[' + address_row + '][abhyasi_id]" value="" /></td>';
+		    html += '    </tr>';
+           ]]></add>
+        </operation>
+	</file>
+	<file name="catalog/view/theme/shpt/template/account/address_form.tpl">
+        <operation>
+            <search position="after"><![CDATA[
+         	<table class="form">
+            ]]></search>
+            <add><![CDATA[
+            <tr>
+          		<td><span class="required">*</span> <?php echo $entry_abhyasi_id; ?></td>
+          		<td><input type="text" name="abhyasi_id" value="<?php echo $abhyasi_id; ?>" />
+            		<?php if ($error_abhyasi_id) { ?>
+            		<span class="error"><?php echo $error_abhyasi_id; ?></span>
+            		<?php } ?>
+            	</td>
+        	</tr>
+           ]]></add>
+        </operation>
+    </file>
+    <file name="catalog/view/theme/shpt/template/account/edit.tpl">
+        <operation>
+            <search position="after"><![CDATA[
+         	<table class="form">
+            ]]></search>
+            <add><![CDATA[
+            <tr>
+          		<td><span class="required">*</span> <?php echo $entry_abhyasi_id; ?></td>
+          		<td><input type="text" name="abhyasi_id" value="<?php echo $abhyasi_id; ?>" />
+            		<?php if ($error_abhyasi_id) { ?>
+            		<span class="error"><?php echo $error_abhyasi_id; ?></span>
+            		<?php } ?>
+            	</td>
+        	</tr>
+           ]]></add>
+        </operation>
+    </file>
+    <file name="catalog/view/theme/shpt/template/account/register.tpl">
+        <operation>
+            <search position="after" index="1"><![CDATA[
+         	<table class="form">
+            ]]></search>
+            <add><![CDATA[
+            <tr>
+          		<td><span class="required">*</span> <?php echo $entry_abhyasi_id; ?></td>
+          		<td><input type="text" name="abhyasi_id" value="<?php echo $abhyasi_id; ?>" />
+            		<?php if ($error_abhyasi_id) { ?>
+            		<span class="error"><?php echo $error_abhyasi_id; ?></span>
+            		<?php } ?>
+            	</td>
+        	</tr>
+           ]]></add>
+        </operation>
+    </file>
+    <file name="catalog/view/theme/shpt/template/affiliate/register.tpl">
+        <operation>
+            <search position="after" index="1"><![CDATA[
+         	<table class="form">
+            ]]></search>
+            <add><![CDATA[
+            <tr>
+          		<td><span class="required">*</span> <?php echo $entry_abhyasi_id; ?></td>
+          		<td><input type="text" name="abhyasi_id" value="<?php echo $abhyasi_id; ?>" />
+            		<?php if ($error_abhyasi_id) { ?>
+            		<span class="error"><?php echo $error_abhyasi_id; ?></span>
+            		<?php } ?>
+            	</td>
+        	</tr>
+           ]]></add>
+        </operation>
+    </file>
+</modification>

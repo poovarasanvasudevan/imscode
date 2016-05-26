@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos2/opencart/!svn/ver/141/trunk/shpt/system/PHPExcel/Classes/PHPExcel/Style
+END
+Border.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos2/opencart/!svn/ver/141/trunk/shpt/system/PHPExcel/Classes/PHPExcel/Style/Border.php
+END
+Alignment.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos2/opencart/!svn/ver/141/trunk/shpt/system/PHPExcel/Classes/PHPExcel/Style/Alignment.php
+END
+Color.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos2/opencart/!svn/ver/141/trunk/shpt/system/PHPExcel/Classes/PHPExcel/Style/Color.php
+END
+Borders.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos2/opencart/!svn/ver/141/trunk/shpt/system/PHPExcel/Classes/PHPExcel/Style/Borders.php
+END
+NumberFormat.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos2/opencart/!svn/ver/141/trunk/shpt/system/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php
+END
+Supervisor.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos2/opencart/!svn/ver/141/trunk/shpt/system/PHPExcel/Classes/PHPExcel/Style/Supervisor.php
+END
+Conditional.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos2/opencart/!svn/ver/141/trunk/shpt/system/PHPExcel/Classes/PHPExcel/Style/Conditional.php
+END
+Fill.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos2/opencart/!svn/ver/141/trunk/shpt/system/PHPExcel/Classes/PHPExcel/Style/Fill.php
+END
+Font.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos2/opencart/!svn/ver/141/trunk/shpt/system/PHPExcel/Classes/PHPExcel/Style/Font.php
+END
+Protection.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos2/opencart/!svn/ver/141/trunk/shpt/system/PHPExcel/Classes/PHPExcel/Style/Protection.php
+END
