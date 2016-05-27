@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0403baa-3a1b-4da9-924c-f4a361758f5b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/model/sale/shipment_method.php" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/system/cache/cache.currency.1464244827" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/system/cache/cache.language.1464244827" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/system/cache/cache.store.1464248913" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/controller/sale/order.php" afterPath="$PROJECT_DIR$/admin/controller/sale/order.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/model/sale/order.php" afterPath="$PROJECT_DIR$/admin/model/sale/order.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/template/sale/order_info.tpl" afterPath="$PROJECT_DIR$/admin/view/template/sale/order_info.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/logs/error.txt" afterPath="$PROJECT_DIR$/system/logs/error.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="shpt.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,6 +32,42 @@
         <option name="myItemId" />
         <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
       </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="MySQL - shptwbs@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="MySQL - shptwbs@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$GroupNode" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="MySQL - shptwbs@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$GroupNode" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="order" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
     </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
@@ -55,11 +86,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="order_info.tpl" pinned="false" current-in-tab="true">
+      <file leaf-file-name="order_info.tpl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/view/template/sale/order_info.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7107143">
-              <caret line="1090" column="33" selection-start-line="1090" selection-start-column="33" selection-end-line="1090" selection-end-column="33" />
+            <state vertical-scroll-proportion="-2.9016395">
+              <caret line="1070" column="17" selection-start-line="1070" selection-start-column="17" selection-end-line="1070" selection-end-column="17" />
               <folding>
                 <marker date="1464328955289" expanded="true" signature="36399:36417" placeholder="..." />
                 <marker date="1464328955289" expanded="true" signature="36519:36537" placeholder="..." />
@@ -87,6 +118,16 @@
                 <marker date="1464328955289" expanded="true" signature="49013:49027" placeholder="..." />
                 <marker date="1464328955289" expanded="true" signature="49200:49214" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.69863015">
+              <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -188,8 +229,8 @@
       <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/a4599af5-4853-4510-a231-9725fa094f2b/console.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.9">
-              <caret line="17" column="34" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="34" />
+            <state vertical-scroll-proportion="-1.4">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="11" selection-end-column="69" />
               <folding />
             </state>
           </provider>
@@ -242,6 +283,7 @@
         <option value="$PROJECT_DIR$/admin/model/sale/order.php" />
         <option value="$PROJECT_DIR$/admin/controller/sale/order.php" />
         <option value="$PROJECT_DIR$/admin/view/template/sale/order_info.tpl" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -258,9 +300,9 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="49" />
-    <option name="y" value="52" />
+    <option name="y" value="24" />
     <option name="width" value="1871" />
-    <option name="height" value="1028" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -302,166 +344,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="shpt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shpt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shpt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shpt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shpt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shpt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shpt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sale" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shpt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shpt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shpt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shpt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shpt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shpt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sale" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shpt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shpt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shpt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shpt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sale" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -526,7 +408,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="49" y="52" width="1871" height="1028" extended-state="7" />
+    <frame x="49" y="24" width="1871" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4713243" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -537,7 +419,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38477582" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4358707" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4358707" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4113856" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -743,10 +625,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/admin/controller/sale/order.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.754098">
+          <caret line="2371" column="65" selection-start-line="2371" selection-start-column="49" selection-end-line="2371" selection-end-column="65" />
+          <folding>
+            <marker date="1464328894895" expanded="true" signature="109130:109289" placeholder="SELECT * FRO... ${DB_PREFIX}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/view/template/sale/order_info.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.9016395">
+          <caret line="1070" column="17" selection-start-line="1070" selection-start-column="17" selection-end-line="1070" selection-end-column="17" />
+          <folding>
+            <marker date="1464328955289" expanded="true" signature="36399:36417" placeholder="..." />
+            <marker date="1464328955289" expanded="true" signature="36519:36537" placeholder="..." />
+            <marker date="1464328955289" expanded="true" signature="36851:36865" placeholder="..." />
+            <marker date="1464328955289" expanded="true" signature="37639:37657" placeholder="..." />
+            <marker date="1464328955289" expanded="true" signature="37964:37978" placeholder="..." />
+            <marker date="1464328955289" expanded="true" signature="38186:38200" placeholder="..." />
+            <marker date="1464328955289" expanded="true" signature="38839:38857" placeholder="..." />
+            <marker date="1464328955289" expanded="true" signature="39164:39178" placeholder="..." />
+            <marker date="1464328955289" expanded="true" signature="39386:39400" placeholder="..." />
+            <marker date="1464328955289" expanded="true" signature="40027:40045" placeholder="..." />
+            <marker date="1464328955289" expanded="true" signature="40352:40366" placeholder="..." />
+            <marker date="1464328955289" expanded="true" signature="40574:40588" placeholder="..." />
+            <marker date="1464328955289" expanded="true" signature="41227:41245" placeholder="..." />
+            <marker date="1464328955289" expanded="true" signature="41552:41566" placeholder="..." />
+            <marker date="1464328955289" expanded="true" signature="41774:41788" placeholder="..." />
+            <marker date="1464328955289" expanded="true" signature="42427:42445" placeholder="..." />
+            <marker date="1464328955289" expanded="true" signature="42752:42766" placeholder="..." />
+            <marker date="1464328955289" expanded="true" signature="42974:42988" placeholder="..." />
+            <marker date="1464328955289" expanded="true" signature="43651:43669" placeholder="..." />
+            <marker date="1464328955289" expanded="true" signature="43976:43990" placeholder="..." />
+            <marker date="1464328955289" expanded="true" signature="44198:44212" placeholder="..." />
+            <marker date="1464328955289" expanded="true" signature="47691:47705" placeholder="..." />
+            <marker date="1464328955289" expanded="true" signature="47878:47892" placeholder="..." />
+            <marker date="1464328955289" expanded="true" signature="49013:49027" placeholder="..." />
+            <marker date="1464328955289" expanded="true" signature="49200:49214" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/a4599af5-4853-4510-a231-9725fa094f2b/console.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.9">
-          <caret line="17" column="34" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="34" />
+        <state vertical-scroll-proportion="-1.4">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="11" selection-end-column="69" />
           <folding />
         </state>
       </provider>
@@ -831,47 +757,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/controller/sale/order.php">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.754098">
-          <caret line="2371" column="65" selection-start-line="2371" selection-start-column="49" selection-end-line="2371" selection-end-column="65" />
-          <folding>
-            <marker date="1464328894895" expanded="true" signature="109130:109289" placeholder="SELECT * FRO... ${DB_PREFIX}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/view/template/sale/order_info.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7107143">
-          <caret line="1090" column="33" selection-start-line="1090" selection-start-column="33" selection-end-line="1090" selection-end-column="33" />
-          <folding>
-            <marker date="1464328955289" expanded="true" signature="36399:36417" placeholder="..." />
-            <marker date="1464328955289" expanded="true" signature="36519:36537" placeholder="..." />
-            <marker date="1464328955289" expanded="true" signature="36851:36865" placeholder="..." />
-            <marker date="1464328955289" expanded="true" signature="37639:37657" placeholder="..." />
-            <marker date="1464328955289" expanded="true" signature="37964:37978" placeholder="..." />
-            <marker date="1464328955289" expanded="true" signature="38186:38200" placeholder="..." />
-            <marker date="1464328955289" expanded="true" signature="38839:38857" placeholder="..." />
-            <marker date="1464328955289" expanded="true" signature="39164:39178" placeholder="..." />
-            <marker date="1464328955289" expanded="true" signature="39386:39400" placeholder="..." />
-            <marker date="1464328955289" expanded="true" signature="40027:40045" placeholder="..." />
-            <marker date="1464328955289" expanded="true" signature="40352:40366" placeholder="..." />
-            <marker date="1464328955289" expanded="true" signature="40574:40588" placeholder="..." />
-            <marker date="1464328955289" expanded="true" signature="41227:41245" placeholder="..." />
-            <marker date="1464328955289" expanded="true" signature="41552:41566" placeholder="..." />
-            <marker date="1464328955289" expanded="true" signature="41774:41788" placeholder="..." />
-            <marker date="1464328955289" expanded="true" signature="42427:42445" placeholder="..." />
-            <marker date="1464328955289" expanded="true" signature="42752:42766" placeholder="..." />
-            <marker date="1464328955289" expanded="true" signature="42974:42988" placeholder="..." />
-            <marker date="1464328955289" expanded="true" signature="43651:43669" placeholder="..." />
-            <marker date="1464328955289" expanded="true" signature="43976:43990" placeholder="..." />
-            <marker date="1464328955289" expanded="true" signature="44198:44212" placeholder="..." />
-            <marker date="1464328955289" expanded="true" signature="47691:47705" placeholder="..." />
-            <marker date="1464328955289" expanded="true" signature="47878:47892" placeholder="..." />
-            <marker date="1464328955289" expanded="true" signature="49013:49027" placeholder="..." />
-            <marker date="1464328955289" expanded="true" signature="49200:49214" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="0.69863015">
+          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
