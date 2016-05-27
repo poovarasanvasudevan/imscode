@@ -593,6 +593,18 @@ class ModelSaleOrder extends Model
         }
     }
 
+    function updateShippmentMethod($order_id, $shippemnt_method)
+    {
+        $sql = "UPDATE `" . DB_PREFIX . "order` SET shipping_method = '" . $shippemnt_method . "', date_modified = NOW() WHERE order_id = '" . (int)$order_id . "'";
+
+        $result = $this->db->query($sql);
+        if ($result) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
     public function getOrders($data = array())
     {
         $sql = "SELECT o.order_id, CONCAT(o.firstname, ' ', o.lastname) AS customer, (SELECT os.name FROM " . DB_PREFIX . "order_status os WHERE os.order_status_id = o.order_status_id AND os.language_id = '" . (int)$this->config->get('config_language_id') . "') AS status, o.total, o.currency_code, o.currency_value, o.date_added, o.date_modified FROM `" . DB_PREFIX . "order` o";

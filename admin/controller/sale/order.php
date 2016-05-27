@@ -1703,9 +1703,13 @@ class ControllerSaleOrder extends Controller
         $this->response->setOutput(json_encode($json));
     }
 
+
     public function info()
     {
         $this->load->model('sale/order');
+        $this->load->model('sale/shipment_method');
+
+        $shipment_method_dropdown = $this->model_sale_shipment_method->getAllShipmentMethod();
 
         if (isset($this->request->get['order_id'])) {
             $order_id = $this->request->get['order_id'];
@@ -1923,6 +1927,7 @@ class ControllerSaleOrder extends Controller
             $this->data['store_url'] = $order_info['store_url'];
             $this->data['firstname'] = $order_info['firstname'];
             $this->data['lastname'] = $order_info['lastname'];
+            $this->data['shipment_method_dropdown'] = $shipment_method_dropdown;
 
             if ($order_info['customer_id']) {
                 $this->data['customer'] = $this->url->link('sale/customer/update', 'token=' . $this->session->data['token'] . '&customer_id=' . $order_info['customer_id'], 'SSL');
@@ -2354,9 +2359,23 @@ class ControllerSaleOrder extends Controller
 
         if ($this->model_sale_order->updateWeight($order_id, $order_weight)) {
 
-            echo json_encode(array('status' => true,'message'=>'Weight Updated Succesfully...'));
+            echo json_encode(array('status' => true, 'message' => 'Weight Updated Succesfully...'));
         } else {
-            echo json_encode(array('status' => false,'message'=>'Failed to update weight..'));
+            echo json_encode(array('status' => false, 'message' => 'Failed to update weight..'));
+        }
+    }
+
+    public function saveshippmentmethod()
+    {
+        $this->load->model('sale/order');
+        $order_id = $this->request->get['order_id'];
+        $shippment_method = $this->request->get['shippment_method'];
+
+
+        if ($this->model_sale_order->updateShippmentMethod($order_id, $shippment_method)) {
+            echo json_encode(array('status' => true, 'message' => 'Shippment Method Updated Succesfully...'));
+        } else {
+            echo json_encode(array('status' => false, 'message' => 'Failed to update shippment method..'));
         }
     }
 
@@ -2429,8 +2448,7 @@ class ControllerSaleOrder extends Controller
         $mail->send();
     }
 
-    public
-    function addCredit()
+    public function addCredit()
     {
         $this->language->load('sale/order');
 
@@ -2461,8 +2479,7 @@ class ControllerSaleOrder extends Controller
         $this->response->setOutput(json_encode($json));
     }
 
-    public
-    function removeCredit()
+    public function removeCredit()
     {
         $this->language->load('sale/order');
 
@@ -2489,8 +2506,7 @@ class ControllerSaleOrder extends Controller
         $this->response->setOutput(json_encode($json));
     }
 
-    public
-    function addReward()
+    public function addReward()
     {
         $this->language->load('sale/order');
 
@@ -2523,8 +2539,7 @@ class ControllerSaleOrder extends Controller
         $this->response->setOutput(json_encode($json));
     }
 
-    public
-    function removeReward()
+    public function removeReward()
     {
         $this->language->load('sale/order');
 
@@ -2551,8 +2566,7 @@ class ControllerSaleOrder extends Controller
         $this->response->setOutput(json_encode($json));
     }
 
-    public
-    function addCommission()
+    public function addCommission()
     {
         $this->language->load('sale/order');
 
@@ -2585,8 +2599,7 @@ class ControllerSaleOrder extends Controller
         $this->response->setOutput(json_encode($json));
     }
 
-    public
-    function removeCommission()
+    public function removeCommission()
     {
         $this->language->load('sale/order');
 
@@ -2613,8 +2626,7 @@ class ControllerSaleOrder extends Controller
         $this->response->setOutput(json_encode($json));
     }
 
-    public
-    function history()
+    public function history()
     {
         $this->language->load('sale/order');
 
@@ -2687,8 +2699,7 @@ class ControllerSaleOrder extends Controller
         $this->response->setOutput($this->render());
     }
 
-    public
-    function download()
+    public function download()
     {
         $this->load->model('sale/order');
 
@@ -2756,8 +2767,7 @@ class ControllerSaleOrder extends Controller
         }
     }
 
-    public
-    function upload()
+    public function upload()
     {
         $this->language->load('sale/order');
 
@@ -2827,8 +2837,7 @@ class ControllerSaleOrder extends Controller
         $this->response->setOutput(json_encode($json));
     }
 
-    public
-    function invoice()
+    public function invoice()
     {
         $this->language->load('sale/order');
 

@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a0403baa-3a1b-4da9-924c-f4a361758f5b" name="Default" comment="" />
+    <list default="true" id="a0403baa-3a1b-4da9-924c-f4a361758f5b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/model/sale/shipment_method.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/system/cache/cache.currency.1464244827" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/system/cache/cache.language.1464244827" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/system/cache/cache.store.1464248913" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/controller/sale/order.php" afterPath="$PROJECT_DIR$/admin/controller/sale/order.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/model/sale/order.php" afterPath="$PROJECT_DIR$/admin/model/sale/order.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/template/sale/order_info.tpl" afterPath="$PROJECT_DIR$/admin/view/template/sale/order_info.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/logs/error.txt" afterPath="$PROJECT_DIR$/system/logs/error.txt" />
+    </list>
     <ignored path="shpt.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -16,75 +26,171 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+    </PATH>
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="shpt" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="order_info.tpl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/view/template/sale/order_info.tpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.966666">
-              <caret line="1038" column="18" selection-start-line="1038" selection-start-column="18" selection-end-line="1038" selection-end-column="18" />
-              <folding>
-                <marker date="1464242844081" expanded="true" signature="35112:35130" placeholder="..." />
-                <marker date="1464242844081" expanded="true" signature="35232:35250" placeholder="..." />
-                <marker date="1464242844081" expanded="true" signature="35564:35578" placeholder="..." />
-                <marker date="1464242844081" expanded="true" signature="36352:36370" placeholder="..." />
-                <marker date="1464242844081" expanded="true" signature="36677:36691" placeholder="..." />
-                <marker date="1464242844081" expanded="true" signature="36899:36913" placeholder="..." />
-                <marker date="1464242844081" expanded="true" signature="37552:37570" placeholder="..." />
-                <marker date="1464242844081" expanded="true" signature="37877:37891" placeholder="..." />
-                <marker date="1464242844081" expanded="true" signature="38099:38113" placeholder="..." />
-                <marker date="1464242844081" expanded="true" signature="38740:38758" placeholder="..." />
-                <marker date="1464242844081" expanded="true" signature="39065:39079" placeholder="..." />
-                <marker date="1464242844081" expanded="true" signature="39287:39301" placeholder="..." />
-                <marker date="1464242844081" expanded="true" signature="39940:39958" placeholder="..." />
-                <marker date="1464242844081" expanded="true" signature="40265:40279" placeholder="..." />
-                <marker date="1464242844081" expanded="true" signature="40487:40501" placeholder="..." />
-                <marker date="1464242844081" expanded="true" signature="41140:41158" placeholder="..." />
-                <marker date="1464242844081" expanded="true" signature="41465:41479" placeholder="..." />
-                <marker date="1464242844081" expanded="true" signature="41687:41701" placeholder="..." />
-                <marker date="1464242844081" expanded="true" signature="42364:42382" placeholder="..." />
-                <marker date="1464242844081" expanded="true" signature="42689:42703" placeholder="..." />
-                <marker date="1464242844081" expanded="true" signature="42911:42925" placeholder="..." />
-                <marker date="1464242844081" expanded="true" signature="46404:46418" placeholder="..." />
-                <marker date="1464242844081" expanded="true" signature="46591:46605" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="invoice_list.tpl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/view/template/sale/invoice_list.tpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="invoice_list.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/controller/sale/invoice_list.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.852459">
+            <state vertical-scroll-proportion="-23.508196">
               <caret line="2478" column="84" selection-start-line="2478" selection-start-column="84" selection-end-line="2478" selection-end-column="84" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="order_invoice.tpl" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/admin/view/template/sale/order_invoice.tpl">
+      <file leaf-file-name="order_info.tpl" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/admin/view/template/sale/order_info.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6483705">
-              <caret line="30" column="71" selection-start-line="30" selection-start-column="71" selection-end-line="30" selection-end-column="71" />
+            <state vertical-scroll-proportion="0.7107143">
+              <caret line="1090" column="33" selection-start-line="1090" selection-start-column="33" selection-end-line="1090" selection-end-column="33" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1464328955289" expanded="true" signature="36399:36417" placeholder="..." />
+                <marker date="1464328955289" expanded="true" signature="36519:36537" placeholder="..." />
+                <marker date="1464328955289" expanded="true" signature="36851:36865" placeholder="..." />
+                <marker date="1464328955289" expanded="true" signature="37639:37657" placeholder="..." />
+                <marker date="1464328955289" expanded="true" signature="37964:37978" placeholder="..." />
+                <marker date="1464328955289" expanded="true" signature="38186:38200" placeholder="..." />
+                <marker date="1464328955289" expanded="true" signature="38839:38857" placeholder="..." />
+                <marker date="1464328955289" expanded="true" signature="39164:39178" placeholder="..." />
+                <marker date="1464328955289" expanded="true" signature="39386:39400" placeholder="..." />
+                <marker date="1464328955289" expanded="true" signature="40027:40045" placeholder="..." />
+                <marker date="1464328955289" expanded="true" signature="40352:40366" placeholder="..." />
+                <marker date="1464328955289" expanded="true" signature="40574:40588" placeholder="..." />
+                <marker date="1464328955289" expanded="true" signature="41227:41245" placeholder="..." />
+                <marker date="1464328955289" expanded="true" signature="41552:41566" placeholder="..." />
+                <marker date="1464328955289" expanded="true" signature="41774:41788" placeholder="..." />
+                <marker date="1464328955289" expanded="true" signature="42427:42445" placeholder="..." />
+                <marker date="1464328955289" expanded="true" signature="42752:42766" placeholder="..." />
+                <marker date="1464328955289" expanded="true" signature="42974:42988" placeholder="..." />
+                <marker date="1464328955289" expanded="true" signature="43651:43669" placeholder="..." />
+                <marker date="1464328955289" expanded="true" signature="43976:43990" placeholder="..." />
+                <marker date="1464328955289" expanded="true" signature="44198:44212" placeholder="..." />
+                <marker date="1464328955289" expanded="true" signature="47691:47705" placeholder="..." />
+                <marker date="1464328955289" expanded="true" signature="47878:47892" placeholder="..." />
+                <marker date="1464328955289" expanded="true" signature="49013:49027" placeholder="..." />
+                <marker date="1464328955289" expanded="true" signature="49200:49214" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="order.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/controller/sale/order.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.754098">
+              <caret line="2371" column="65" selection-start-line="2371" selection-start-column="49" selection-end-line="2371" selection-end-column="65" />
+              <folding>
+                <marker date="1464328894895" expanded="true" signature="109130:109289" placeholder="SELECT * FRO... ${DB_PREFIX}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="order.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/model/sale/order.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.868853">
+              <caret line="595" column="34" selection-start-line="595" selection-start-column="13" selection-end-line="595" selection-end-column="34" />
+              <folding>
+                <marker date="1464328678941" expanded="true" signature="2976:6216" placeholder="INSERT INTO `${DB_PREFIX}order`... " />
+                <marker date="1464328678941" expanded="true" signature="6410:6922" placeholder="INSERT INTO ${DB_PREFIX}order_product... " />
+                <marker date="1464328678941" expanded="true" signature="7391:7862" placeholder="INSERT INTO ${DB_PREFIX}order_option... " />
+                <marker date="1464328678941" expanded="true" signature="8362:8746" placeholder="INSERT INTO ${DB_PREFIX}order_download... " />
+                <marker date="1464328678941" expanded="true" signature="8959:9697" placeholder="INSERT INTO ${DB_PREFIX}order_voucher... " />
+                <marker date="1464328678941" expanded="true" signature="10083:10445" placeholder="INSERT INTO ${DB_PREFIX}order_total... " />
+                <marker date="1464328678941" expanded="true" signature="12325:12650" placeholder="INSERT INTO ${DB_PREFIX}invoice... " />
+                <marker date="1464328678941" expanded="true" signature="15281:15387" placeholder="SELECT * FRO... ${DB_PREFIX}order" />
+                <marker date="1464328678941" expanded="true" signature="15477:15563" placeholder="SELECT * FRO... ${DB_PREFIX}" />
+                <marker date="1464328678941" expanded="true" signature="15885:16037" placeholder="SELECT * FRO... ${DB_PREFIX}" />
+                <marker date="1464328678941" expanded="true" signature="19937:20021" placeholder="DELETE FROM " />
+                <marker date="1464328678941" expanded="true" signature="20051:20134" placeholder="DELETE FROM " />
+                <marker date="1464328678941" expanded="true" signature="20164:20249" placeholder="DELETE FROM " />
+                <marker date="1464328678941" expanded="true" signature="20806:21434" placeholder="INSERT INTO ${DB_PREFIX}order_product... " />
+                <marker date="1464328678941" expanded="true" signature="21903:22441" placeholder="INSERT INTO ${DB_PREFIX}order_option... " />
+                <marker date="1464328678941" expanded="true" signature="22942:23399" placeholder="INSERT INTO ${DB_PREFIX}order_download... " />
+                <marker date="1464328678941" expanded="true" signature="23494:23578" placeholder="DELETE FROM " />
+                <marker date="1464328678941" expanded="true" signature="23727:24535" placeholder="INSERT INTO ${DB_PREFIX}order_voucher... " />
+                <marker date="1464328678941" expanded="true" signature="24809:24891" placeholder="DELETE FROM " />
+                <marker date="1464328678941" expanded="true" signature="25034:25460" placeholder="INSERT INTO ${DB_PREFIX}order_total... " />
+                <marker date="1464328678941" expanded="true" signature="26360:26466" placeholder="SELECT * FRO... ${DB_PREFIX}order" />
+                <marker date="1464328678941" expanded="true" signature="26556:26642" placeholder="SELECT * FRO... ${DB_PREFIX}" />
+                <marker date="1464328678941" expanded="true" signature="26964:27116" placeholder="SELECT * FRO... ${DB_PREFIX}" />
+                <marker date="1464328678941" expanded="true" signature="27498:27576" placeholder="DELETE FROM " />
+                <marker date="1464328678941" expanded="true" signature="27606:27690" placeholder="DELETE FROM " />
+                <marker date="1464328678941" expanded="true" signature="27720:27803" placeholder="DELETE FROM " />
+                <marker date="1464328678941" expanded="true" signature="27833:27918" placeholder="DELETE FROM " />
+                <marker date="1464328678941" expanded="true" signature="27948:28032" placeholder="DELETE FROM " />
+                <marker date="1464328678941" expanded="true" signature="28062:28144" placeholder="DELETE FROM " />
+                <marker date="1464328678941" expanded="true" signature="28174:28258" placeholder="DELETE FROM " />
+                <marker date="1464328678941" expanded="true" signature="28288:28370" placeholder="DELETE FROM " />
+                <marker date="1464328678941" expanded="true" signature="28400:28491" placeholder="DELETE FROM " />
+                <marker date="1464328678941" expanded="true" signature="28521:28607" placeholder="DELETE FROM " />
+                <marker date="1464328678941" expanded="true" signature="28637:28729" placeholder="DELETE FROM " />
+                <marker date="1464328678941" expanded="true" signature="29463:29675" placeholder="SELECT *, (S... ${DB_PREFIX}order" />
+                <marker date="1464328678941" expanded="true" signature="29474:29586" placeholder="SELECT CONCA... ${DB_PREFIX}" />
+                <marker date="1464328678941" expanded="true" signature="29797:29883" placeholder="SELECT * FRO... ${DB_PREFIX}" />
+                <marker date="1464328678941" expanded="true" signature="30060:30174" placeholder="SELECT * FRO... ${DB_PREFIX}country" />
+                <marker date="1464328678941" expanded="true" signature="30533:30638" placeholder="SELECT * FRO... ${DB_PREFIX}zone" />
+                <marker date="1464328678941" expanded="true" signature="30871:30986" placeholder="SELECT * FRO... ${DB_PREFIX}country" />
+                <marker date="1464328678941" expanded="true" signature="31349:31455" placeholder="SELECT * FRO... ${DB_PREFIX}zone" />
+                <marker date="1464328678941" expanded="true" signature="32966:33112" placeholder="SELECT `amaz... ${DB_PREFIX}amazon_order" />
+                <marker date="1464328678941" expanded="true" signature="33452:33605" placeholder="SELECT `amaz... ${DB_PREFIX}amazonus_order" />
+                <marker date="1464328678941" expanded="true" signature="39851:40213" placeholder="SELECT o.ord... ${DB_PREFIX}order" />
+                <marker date="1464328678941" expanded="true" signature="42364:42522" placeholder="SELECT shp_q... ${DB_PREFIX}" />
+                <marker date="1464328678941" expanded="true" signature="42698:42795" placeholder="SELECT shp_q... ${DB_PREFIX}" />
+                <marker date="1464328678941" expanded="true" signature="44383:44492" placeholder="SELECT SUM(q... ${DB_PREFIX}order_product" />
+                <marker date="1464328678941" expanded="true" signature="44643:44756" placeholder="SELECT SUM(s... ${DB_PREFIX}order_product" />
+                <marker date="1464328678941" expanded="true" signature="44914:45030" placeholder="SELECT * FRO... ${DB_PREFIX}" />
+                <marker date="1464328678941" expanded="true" signature="45176:45315" placeholder="SELECT * FRO... ${DB_PREFIX}" />
+                <marker date="1464328678941" expanded="true" signature="45462:45759" placeholder="SELECT oo.* ${DB_PREFIX}" />
+                <marker date="1464328678941" expanded="true" signature="45909:46052" placeholder="SELECT * FRO... ${DB_PREFIX}" />
+                <marker date="1464328678941" expanded="true" signature="46182:46268" placeholder="SELECT * FRO... ${DB_PREFIX}" />
+                <marker date="1464328678941" expanded="true" signature="46410:46502" placeholder="SELECT * FRO... ${DB_PREFIX}order_voucher" />
+                <marker date="1464328678941" expanded="true" signature="46629:46733" placeholder="SELECT * FRO... ${DB_PREFIX}" />
+                <marker date="1464328678941" expanded="true" signature="46890:46942" placeholder="SELECT MAX(i... ${DB_PREFIX}" />
+                <marker date="1464328678941" expanded="true" signature="47104:47158" placeholder="SELECT COUNT... ${DB_PREFIX}order" />
+                <marker date="1464328678941" expanded="true" signature="48419:48515" placeholder="SELECT COUNT... ${DB_PREFIX}order" />
+                <marker date="1464328678941" expanded="true" signature="48673:48809" placeholder="SELECT COUNT... ${DB_PREFIX}order" />
+                <marker date="1464328678941" expanded="true" signature="48960:49088" placeholder="SELECT COUNT... ${DB_PREFIX}order" />
+                <marker date="1464328678941" expanded="true" signature="49239:49367" placeholder="SELECT COUNT... ${DB_PREFIX}order" />
+                <marker date="1464328678941" expanded="true" signature="49493:49577" placeholder="SELECT SUM(t... ${DB_PREFIX}order" />
+                <marker date="1464328678941" expanded="true" signature="49714:49842" placeholder="SELECT SUM(t... ${DB_PREFIX}order" />
+                <marker date="1464328678941" expanded="true" signature="50091:50239" placeholder="SELECT MAX(i... ${DB_PREFIX}order" />
+                <marker date="1464328678941" expanded="true" signature="51004:51306" placeholder="INSERT INTO ${DB_PREFIX}order_history... " />
+                <marker date="1464328678941" expanded="true" signature="52354:52521" placeholder="SELECT * FRO... ${DB_PREFIX}" />
+                <marker date="1464328678941" expanded="true" signature="54596:54959" placeholder="SELECT oh.da... ${DB_PREFIX}" />
+                <marker date="1464328678941" expanded="true" signature="55109:55211" placeholder="SELECT COUNT... ${DB_PREFIX}" />
+                <marker date="1464328678941" expanded="true" signature="55377:55493" placeholder="SELECT COUNT... ${DB_PREFIX}" />
+                <marker date="1464328678941" expanded="true" signature="55811:56036" placeholder="SELECT DISTI... ${DB_PREFIX}order" />
+                <marker date="1464328678941" expanded="true" signature="56349:56547" placeholder="SELECT DISTI... ${DB_PREFIX}order" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/a4599af5-4853-4510-a231-9725fa094f2b/console.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-11.9">
+              <caret line="17" column="34" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="34" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -99,45 +205,43 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="invoice_list.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/language/english/sale/invoice_list.php">
+      <file leaf-file-name="voucher.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/model/sale/voucher.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.78688526">
-              <caret line="120" column="22" selection-start-line="120" selection-start-column="4" selection-end-line="120" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="osc_order.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/language/english/sale/osc_order.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
+            <state vertical-scroll-proportion="39.9">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="order.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/language/english/sale/order.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.0163934">
-              <caret line="107" column="159" selection-start-line="107" selection-start-column="144" selection-end-line="107" selection-end-column="159" />
-              <folding />
+              <folding>
+                <marker date="1464242256417" expanded="true" signature="102:654" placeholder="INSERT INTO ${DB_PREFIX}voucher... " />
+                <marker date="1464242256417" expanded="true" signature="1380:1462" placeholder="DELETE FROM " />
+                <marker date="1464242256417" expanded="true" signature="1486:1576" placeholder="DELETE FROM " />
+                <marker date="1464242256417" expanded="true" signature="1656:1749" placeholder="SELECT DISTI... ${DB_PREFIX}" />
+                <marker date="1464242256417" expanded="true" signature="1852:1947" placeholder="SELECT DISTI... ${DB_PREFIX}" />
+                <marker date="1464242256417" expanded="true" signature="2036:2385" placeholder="SELECT v.vou... ${DB_PREFIX}" />
+                <marker date="1464242256417" expanded="true" signature="8199:8253" placeholder="SELECT COUNT... ${DB_PREFIX}" />
+                <marker date="1464242256417" expanded="true" signature="8394:8506" placeholder="SELECT COUNT... ${DB_PREFIX}" />
+                <marker date="1464242256417" expanded="true" signature="8735:9040" placeholder="SELECT vh.or... ${DB_PREFIX}" />
+                <marker date="1464242256417" expanded="true" signature="9172:9280" placeholder="SELECT COUNT... ${DB_PREFIX}" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/admin/view/template/sale/order_info.tpl" />
         <option value="$PROJECT_DIR$/admin/language/english/sale/invoice_list.php" />
         <option value="$PROJECT_DIR$/admin/controller/sale/invoice_list.php" />
         <option value="$PROJECT_DIR$/admin/view/template/sale/order_invoice.tpl" />
+        <option value="$PROJECT_DIR$/admin/model/sale/shipment_method.php" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/a4599af5-4853-4510-a231-9725fa094f2b/console.sql" />
+        <option value="$PROJECT_DIR$/admin/model/sale/order.php" />
+        <option value="$PROJECT_DIR$/admin/controller/sale/order.php" />
+        <option value="$PROJECT_DIR$/admin/view/template/sale/order_info.tpl" />
       </list>
     </option>
   </component>
@@ -154,9 +258,9 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="49" />
-    <option name="y" value="24" />
+    <option name="y" value="52" />
     <option name="width" value="1871" />
-    <option name="height" value="1056" />
+    <option name="height" value="1028" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -295,11 +399,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="language" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="english" />
+              <option name="myItemId" value="model" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -317,11 +417,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="language" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="english" />
+              <option name="myItemId" value="model" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -380,6 +476,7 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ci" />
   </component>
   <component name="RunManager" selected="PHP Web Application.Unnamed">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -391,6 +488,9 @@
     </configuration>
     <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
       <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server">
       <method />
     </configuration>
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
@@ -408,14 +508,14 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="Unnamed" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" browser="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" server_name="Unnamed" start_url="/shpt">
-      <method />
-    </configuration>
     <list size="1">
       <item index="0" class="java.lang.String" itemvalue="PHP Web Application.Unnamed" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="a0403baa-3a1b-4da9-924c-f4a361758f5b" name="Default" comment="" />
@@ -426,19 +526,20 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="49" y="24" width="1871" height="1056" extended-state="6" />
-    <editor active="false" />
+    <frame x="49" y="52" width="1871" height="1028" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25315067" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4713243" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17369863" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38560688" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12547944" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38477582" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295099" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4358707" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4113856" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -448,46 +549,24 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/admin/view/template/sale/order_info.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.966666">
-          <caret line="1038" column="18" selection-start-line="1038" selection-start-column="18" selection-end-line="1038" selection-end-column="18" />
-          <folding>
-            <marker date="1464242844081" expanded="true" signature="35112:35130" placeholder="..." />
-            <marker date="1464242844081" expanded="true" signature="35232:35250" placeholder="..." />
-            <marker date="1464242844081" expanded="true" signature="35564:35578" placeholder="..." />
-            <marker date="1464242844081" expanded="true" signature="36352:36370" placeholder="..." />
-            <marker date="1464242844081" expanded="true" signature="36677:36691" placeholder="..." />
-            <marker date="1464242844081" expanded="true" signature="36899:36913" placeholder="..." />
-            <marker date="1464242844081" expanded="true" signature="37552:37570" placeholder="..." />
-            <marker date="1464242844081" expanded="true" signature="37877:37891" placeholder="..." />
-            <marker date="1464242844081" expanded="true" signature="38099:38113" placeholder="..." />
-            <marker date="1464242844081" expanded="true" signature="38740:38758" placeholder="..." />
-            <marker date="1464242844081" expanded="true" signature="39065:39079" placeholder="..." />
-            <marker date="1464242844081" expanded="true" signature="39287:39301" placeholder="..." />
-            <marker date="1464242844081" expanded="true" signature="39940:39958" placeholder="..." />
-            <marker date="1464242844081" expanded="true" signature="40265:40279" placeholder="..." />
-            <marker date="1464242844081" expanded="true" signature="40487:40501" placeholder="..." />
-            <marker date="1464242844081" expanded="true" signature="41140:41158" placeholder="..." />
-            <marker date="1464242844081" expanded="true" signature="41465:41479" placeholder="..." />
-            <marker date="1464242844081" expanded="true" signature="41687:41701" placeholder="..." />
-            <marker date="1464242844081" expanded="true" signature="42364:42382" placeholder="..." />
-            <marker date="1464242844081" expanded="true" signature="42689:42703" placeholder="..." />
-            <marker date="1464242844081" expanded="true" signature="42911:42925" placeholder="..." />
-            <marker date="1464242844081" expanded="true" signature="46404:46418" placeholder="..." />
-            <marker date="1464242844081" expanded="true" signature="46591:46605" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/view/template/sale/invoice_list.tpl">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -504,14 +583,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/language/english/sale/order.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.0163934">
-          <caret line="107" column="159" selection-start-line="107" selection-start-column="144" selection-end-line="107" selection-end-column="159" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/language/english/sale/invoice_list.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.78688526">
@@ -520,11 +591,147 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/model/sale/coupon.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1464242256417" expanded="true" signature="100:752" placeholder="INSERT INTO ${DB_PREFIX}coupon... " />
+            <marker date="1464242256417" expanded="true" signature="913:1039" placeholder="INSERT INTO ${DB_PREFIX}coupon_product... " />
+            <marker date="1464242256417" expanded="true" signature="1172:1301" placeholder="INSERT INTO ${DB_PREFIX}coupon_category... " />
+            <marker date="1464242256417" expanded="true" signature="2085:2172" placeholder="DELETE FROM " />
+            <marker date="1464242256417" expanded="true" signature="2293:2419" placeholder="INSERT INTO ${DB_PREFIX}coupon_product... " />
+            <marker date="1464242256417" expanded="true" signature="2454:2542" placeholder="DELETE FROM " />
+            <marker date="1464242256417" expanded="true" signature="2666:2795" placeholder="INSERT INTO ${DB_PREFIX}coupon_category... " />
+            <marker date="1464242256417" expanded="true" signature="2880:2959" placeholder="DELETE FROM " />
+            <marker date="1464242256417" expanded="true" signature="2983:3070" placeholder="DELETE FROM " />
+            <marker date="1464242256417" expanded="true" signature="3094:3182" placeholder="DELETE FROM " />
+            <marker date="1464242256417" expanded="true" signature="3206:3293" placeholder="DELETE FROM " />
+            <marker date="1464242256417" expanded="true" signature="3373:3463" placeholder="SELECT DISTI... ${DB_PREFIX}" />
+            <marker date="1464242256417" expanded="true" signature="3565:3659" placeholder="SELECT DISTI... ${DB_PREFIX}" />
+            <marker date="1464242256417" expanded="true" signature="3747:3844" placeholder="SELECT coupo... ${DB_PREFIX}" />
+            <marker date="1464242256417" expanded="true" signature="4665:4754" placeholder="SELECT * FRO... ${DB_PREFIX}" />
+            <marker date="1464242256417" expanded="true" signature="5004:5094" placeholder="SELECT * FRO... ${DB_PREFIX}" />
+            <marker date="1464242256417" expanded="true" signature="5297:5350" placeholder="SELECT COUNT... ${DB_PREFIX}" />
+            <marker date="1464242256417" expanded="true" signature="5577:5886" placeholder="SELECT ch.or... ${DB_PREFIX}" />
+            <marker date="1464242256417" expanded="true" signature="6016:6121" placeholder="SELECT COUNT... ${DB_PREFIX}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/model/sale/affiliate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1464242256417" expanded="true" signature="106:1739" placeholder="INSERT INTO ${DB_PREFIX}affiliate... " />
+            <marker date="1464242256417" expanded="true" signature="3701:3789" placeholder="DELETE FROM " />
+            <marker date="1464242256417" expanded="true" signature="3813:3913" placeholder="DELETE FROM " />
+            <marker date="1464242256417" expanded="true" signature="3997:4096" placeholder="SELECT DISTI... ${DB_PREFIX}" />
+            <marker date="1464242256417" expanded="true" signature="4203:4326" placeholder="SELECT DISTI... ${DB_PREFIX}" />
+            <marker date="1464242256417" expanded="true" signature="4417:4652" placeholder="SELECT *, CO... ${DB_PREFIX}" />
+            <marker date="1464242256417" expanded="true" signature="7972:8071" placeholder="SELECT * FRO... ${DB_PREFIX}" />
+            <marker date="1464242256417" expanded="true" signature="8168:8224" placeholder="SELECT COUNT... ${DB_PREFIX}" />
+            <marker date="1464242256417" expanded="true" signature="9234:9327" placeholder="SELECT COUNT... ${DB_PREFIX}" />
+            <marker date="1464242256417" expanded="true" signature="9458:9560" placeholder="SELECT COUNT... ${DB_PREFIX}" />
+            <marker date="1464242256417" expanded="true" signature="9686:9782" placeholder="SELECT COUNT... ${DB_PREFIX}" />
+            <marker date="1464242256417" expanded="true" signature="10023:10272" placeholder="INSERT INTO ${DB_PREFIX}affiliate_transaction... " />
+            <marker date="1464242256417" expanded="true" signature="11600:11692" placeholder="DELETE FROM " />
+            <marker date="1464242256417" expanded="true" signature="11886:12040" placeholder="SELECT * FRO... ${DB_PREFIX}" />
+            <marker date="1464242256417" expanded="true" signature="12170:12289" placeholder="SELECT COUNT... ${DB_PREFIX}" />
+            <marker date="1464242256417" expanded="true" signature="12412:12533" placeholder="SELECT SUM(a... ${DB_PREFIX}" />
+            <marker date="1464242256417" expanded="true" signature="12663:12773" placeholder="SELECT COUNT... ${DB_PREFIX}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/model/sale/voucher_theme.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.83648497">
+          <caret line="36" column="27" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
+          <folding>
+            <marker date="1464242256417" expanded="true" signature="113:252" placeholder="INSERT INTO ${DB_PREFIX}voucher_theme... " />
+            <marker date="1464242256417" expanded="true" signature="400:605" placeholder="INSERT INTO ${DB_PREFIX}voucher_theme_description... " />
+            <marker date="1464242256417" expanded="true" signature="958:1070" placeholder="DELETE FROM " />
+            <marker date="1464242256417" expanded="true" signature="1171:1376" placeholder="INSERT INTO ${DB_PREFIX}voucher_theme_description... " />
+            <marker date="1464242256417" expanded="true" signature="1507:1607" placeholder="DELETE FROM " />
+            <marker date="1464242256417" expanded="true" signature="1631:1743" placeholder="DELETE FROM " />
+            <marker date="1464242256417" expanded="true" signature="1876:2167" placeholder="SELECT * FRO... ${DB_PREFIX}" />
+            <marker date="1464242256417" expanded="true" signature="2277:2527" placeholder="SELECT * FRO... ${DB_PREFIX}" />
+            <marker date="1464242256417" expanded="true" signature="3165:3415" placeholder="SELECT * FRO... ${DB_PREFIX}" />
+            <marker date="1464242256417" expanded="true" signature="3750:3864" placeholder="SELECT * FRO... ${DB_PREFIX}" />
+            <marker date="1464242256417" expanded="true" signature="4101:4161" placeholder="SELECT COUNT... ${DB_PREFIX}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/model/sale/voucher.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="39.9">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1464242256417" expanded="true" signature="102:654" placeholder="INSERT INTO ${DB_PREFIX}voucher... " />
+            <marker date="1464242256417" expanded="true" signature="1380:1462" placeholder="DELETE FROM " />
+            <marker date="1464242256417" expanded="true" signature="1486:1576" placeholder="DELETE FROM " />
+            <marker date="1464242256417" expanded="true" signature="1656:1749" placeholder="SELECT DISTI... ${DB_PREFIX}" />
+            <marker date="1464242256417" expanded="true" signature="1852:1947" placeholder="SELECT DISTI... ${DB_PREFIX}" />
+            <marker date="1464242256417" expanded="true" signature="2036:2385" placeholder="SELECT v.vou... ${DB_PREFIX}" />
+            <marker date="1464242256417" expanded="true" signature="8199:8253" placeholder="SELECT COUNT... ${DB_PREFIX}" />
+            <marker date="1464242256417" expanded="true" signature="8394:8506" placeholder="SELECT COUNT... ${DB_PREFIX}" />
+            <marker date="1464242256417" expanded="true" signature="8735:9040" placeholder="SELECT vh.or... ${DB_PREFIX}" />
+            <marker date="1464242256417" expanded="true" signature="9172:9280" placeholder="SELECT COUNT... ${DB_PREFIX}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/view/template/sale/order_invoice.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30367073">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/language/english/sale/order.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21198156">
+          <caret line="107" column="159" selection-start-line="107" selection-start-column="144" selection-end-line="107" selection-end-column="159" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/admin/controller/sale/invoice_list.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.852459">
+        <state vertical-scroll-proportion="-23.508196">
           <caret line="2478" column="84" selection-start-line="2478" selection-start-column="84" selection-end-line="2478" selection-end-column="84" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/model/sale/shipment_method.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7474972">
+          <caret line="32" column="85" selection-start-line="32" selection-start-column="85" selection-end-line="32" selection-end-column="85" />
+          <folding>
+            <marker date="1464328294511" expanded="true" signature="232:292" placeholder="INSERT INTO ${DB_PREFIX}shippment_method... " />
+            <marker date="1464328294511" expanded="true" signature="232:328" placeholder="INSERT INTO shippment_method... " />
+            <marker date="1464328294511" expanded="true" signature="515:607" placeholder="DELETE FROM " />
+            <marker date="1464328294511" expanded="true" signature="521:607" placeholder="INSERT INTO ${DB_PREFIX}shippment_method... " />
+            <marker date="1464328294511" expanded="true" signature="808:839" placeholder="SELECT * FRO... ${DB_PREFIX}" />
+            <marker date="1464328294511" expanded="true" signature="808:855" placeholder="SELECT * FRO... ${DB_PREFIX}" />
+            <marker date="1464328294511" expanded="true" signature="808:856" placeholder="SELECT * FRO... ${DB_PREFIX}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -536,13 +743,134 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/view/template/sale/order_invoice.tpl">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/a4599af5-4853-4510-a231-9725fa094f2b/console.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6483705">
-          <caret line="30" column="71" selection-start-line="30" selection-start-column="71" selection-end-line="30" selection-end-column="71" />
+        <state vertical-scroll-proportion="-11.9">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/model/sale/order.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.868853">
+          <caret line="595" column="34" selection-start-line="595" selection-start-column="13" selection-end-line="595" selection-end-column="34" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1464328678941" expanded="true" signature="2976:6216" placeholder="INSERT INTO `${DB_PREFIX}order`... " />
+            <marker date="1464328678941" expanded="true" signature="6410:6922" placeholder="INSERT INTO ${DB_PREFIX}order_product... " />
+            <marker date="1464328678941" expanded="true" signature="7391:7862" placeholder="INSERT INTO ${DB_PREFIX}order_option... " />
+            <marker date="1464328678941" expanded="true" signature="8362:8746" placeholder="INSERT INTO ${DB_PREFIX}order_download... " />
+            <marker date="1464328678941" expanded="true" signature="8959:9697" placeholder="INSERT INTO ${DB_PREFIX}order_voucher... " />
+            <marker date="1464328678941" expanded="true" signature="10083:10445" placeholder="INSERT INTO ${DB_PREFIX}order_total... " />
+            <marker date="1464328678941" expanded="true" signature="12325:12650" placeholder="INSERT INTO ${DB_PREFIX}invoice... " />
+            <marker date="1464328678941" expanded="true" signature="15281:15387" placeholder="SELECT * FRO... ${DB_PREFIX}order" />
+            <marker date="1464328678941" expanded="true" signature="15477:15563" placeholder="SELECT * FRO... ${DB_PREFIX}" />
+            <marker date="1464328678941" expanded="true" signature="15885:16037" placeholder="SELECT * FRO... ${DB_PREFIX}" />
+            <marker date="1464328678941" expanded="true" signature="19937:20021" placeholder="DELETE FROM " />
+            <marker date="1464328678941" expanded="true" signature="20051:20134" placeholder="DELETE FROM " />
+            <marker date="1464328678941" expanded="true" signature="20164:20249" placeholder="DELETE FROM " />
+            <marker date="1464328678941" expanded="true" signature="20806:21434" placeholder="INSERT INTO ${DB_PREFIX}order_product... " />
+            <marker date="1464328678941" expanded="true" signature="21903:22441" placeholder="INSERT INTO ${DB_PREFIX}order_option... " />
+            <marker date="1464328678941" expanded="true" signature="22942:23399" placeholder="INSERT INTO ${DB_PREFIX}order_download... " />
+            <marker date="1464328678941" expanded="true" signature="23494:23578" placeholder="DELETE FROM " />
+            <marker date="1464328678941" expanded="true" signature="23727:24535" placeholder="INSERT INTO ${DB_PREFIX}order_voucher... " />
+            <marker date="1464328678941" expanded="true" signature="24809:24891" placeholder="DELETE FROM " />
+            <marker date="1464328678941" expanded="true" signature="25034:25460" placeholder="INSERT INTO ${DB_PREFIX}order_total... " />
+            <marker date="1464328678941" expanded="true" signature="26360:26466" placeholder="SELECT * FRO... ${DB_PREFIX}order" />
+            <marker date="1464328678941" expanded="true" signature="26556:26642" placeholder="SELECT * FRO... ${DB_PREFIX}" />
+            <marker date="1464328678941" expanded="true" signature="26964:27116" placeholder="SELECT * FRO... ${DB_PREFIX}" />
+            <marker date="1464328678941" expanded="true" signature="27498:27576" placeholder="DELETE FROM " />
+            <marker date="1464328678941" expanded="true" signature="27606:27690" placeholder="DELETE FROM " />
+            <marker date="1464328678941" expanded="true" signature="27720:27803" placeholder="DELETE FROM " />
+            <marker date="1464328678941" expanded="true" signature="27833:27918" placeholder="DELETE FROM " />
+            <marker date="1464328678941" expanded="true" signature="27948:28032" placeholder="DELETE FROM " />
+            <marker date="1464328678941" expanded="true" signature="28062:28144" placeholder="DELETE FROM " />
+            <marker date="1464328678941" expanded="true" signature="28174:28258" placeholder="DELETE FROM " />
+            <marker date="1464328678941" expanded="true" signature="28288:28370" placeholder="DELETE FROM " />
+            <marker date="1464328678941" expanded="true" signature="28400:28491" placeholder="DELETE FROM " />
+            <marker date="1464328678941" expanded="true" signature="28521:28607" placeholder="DELETE FROM " />
+            <marker date="1464328678941" expanded="true" signature="28637:28729" placeholder="DELETE FROM " />
+            <marker date="1464328678941" expanded="true" signature="29463:29675" placeholder="SELECT *, (S... ${DB_PREFIX}order" />
+            <marker date="1464328678941" expanded="true" signature="29474:29586" placeholder="SELECT CONCA... ${DB_PREFIX}" />
+            <marker date="1464328678941" expanded="true" signature="29797:29883" placeholder="SELECT * FRO... ${DB_PREFIX}" />
+            <marker date="1464328678941" expanded="true" signature="30060:30174" placeholder="SELECT * FRO... ${DB_PREFIX}country" />
+            <marker date="1464328678941" expanded="true" signature="30533:30638" placeholder="SELECT * FRO... ${DB_PREFIX}zone" />
+            <marker date="1464328678941" expanded="true" signature="30871:30986" placeholder="SELECT * FRO... ${DB_PREFIX}country" />
+            <marker date="1464328678941" expanded="true" signature="31349:31455" placeholder="SELECT * FRO... ${DB_PREFIX}zone" />
+            <marker date="1464328678941" expanded="true" signature="32966:33112" placeholder="SELECT `amaz... ${DB_PREFIX}amazon_order" />
+            <marker date="1464328678941" expanded="true" signature="33452:33605" placeholder="SELECT `amaz... ${DB_PREFIX}amazonus_order" />
+            <marker date="1464328678941" expanded="true" signature="39851:40213" placeholder="SELECT o.ord... ${DB_PREFIX}order" />
+            <marker date="1464328678941" expanded="true" signature="42364:42522" placeholder="SELECT shp_q... ${DB_PREFIX}" />
+            <marker date="1464328678941" expanded="true" signature="42698:42795" placeholder="SELECT shp_q... ${DB_PREFIX}" />
+            <marker date="1464328678941" expanded="true" signature="44383:44492" placeholder="SELECT SUM(q... ${DB_PREFIX}order_product" />
+            <marker date="1464328678941" expanded="true" signature="44643:44756" placeholder="SELECT SUM(s... ${DB_PREFIX}order_product" />
+            <marker date="1464328678941" expanded="true" signature="44914:45030" placeholder="SELECT * FRO... ${DB_PREFIX}" />
+            <marker date="1464328678941" expanded="true" signature="45176:45315" placeholder="SELECT * FRO... ${DB_PREFIX}" />
+            <marker date="1464328678941" expanded="true" signature="45462:45759" placeholder="SELECT oo.* ${DB_PREFIX}" />
+            <marker date="1464328678941" expanded="true" signature="45909:46052" placeholder="SELECT * FRO... ${DB_PREFIX}" />
+            <marker date="1464328678941" expanded="true" signature="46182:46268" placeholder="SELECT * FRO... ${DB_PREFIX}" />
+            <marker date="1464328678941" expanded="true" signature="46410:46502" placeholder="SELECT * FRO... ${DB_PREFIX}order_voucher" />
+            <marker date="1464328678941" expanded="true" signature="46629:46733" placeholder="SELECT * FRO... ${DB_PREFIX}" />
+            <marker date="1464328678941" expanded="true" signature="46890:46942" placeholder="SELECT MAX(i... ${DB_PREFIX}" />
+            <marker date="1464328678941" expanded="true" signature="47104:47158" placeholder="SELECT COUNT... ${DB_PREFIX}order" />
+            <marker date="1464328678941" expanded="true" signature="48419:48515" placeholder="SELECT COUNT... ${DB_PREFIX}order" />
+            <marker date="1464328678941" expanded="true" signature="48673:48809" placeholder="SELECT COUNT... ${DB_PREFIX}order" />
+            <marker date="1464328678941" expanded="true" signature="48960:49088" placeholder="SELECT COUNT... ${DB_PREFIX}order" />
+            <marker date="1464328678941" expanded="true" signature="49239:49367" placeholder="SELECT COUNT... ${DB_PREFIX}order" />
+            <marker date="1464328678941" expanded="true" signature="49493:49577" placeholder="SELECT SUM(t... ${DB_PREFIX}order" />
+            <marker date="1464328678941" expanded="true" signature="49714:49842" placeholder="SELECT SUM(t... ${DB_PREFIX}order" />
+            <marker date="1464328678941" expanded="true" signature="50091:50239" placeholder="SELECT MAX(i... ${DB_PREFIX}order" />
+            <marker date="1464328678941" expanded="true" signature="51004:51306" placeholder="INSERT INTO ${DB_PREFIX}order_history... " />
+            <marker date="1464328678941" expanded="true" signature="52354:52521" placeholder="SELECT * FRO... ${DB_PREFIX}" />
+            <marker date="1464328678941" expanded="true" signature="54596:54959" placeholder="SELECT oh.da... ${DB_PREFIX}" />
+            <marker date="1464328678941" expanded="true" signature="55109:55211" placeholder="SELECT COUNT... ${DB_PREFIX}" />
+            <marker date="1464328678941" expanded="true" signature="55377:55493" placeholder="SELECT COUNT... ${DB_PREFIX}" />
+            <marker date="1464328678941" expanded="true" signature="55811:56036" placeholder="SELECT DISTI... ${DB_PREFIX}order" />
+            <marker date="1464328678941" expanded="true" signature="56349:56547" placeholder="SELECT DISTI... ${DB_PREFIX}order" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/controller/sale/order.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.754098">
+          <caret line="2371" column="65" selection-start-line="2371" selection-start-column="49" selection-end-line="2371" selection-end-column="65" />
+          <folding>
+            <marker date="1464328894895" expanded="true" signature="109130:109289" placeholder="SELECT * FRO... ${DB_PREFIX}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/view/template/sale/order_info.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7107143">
+          <caret line="1090" column="33" selection-start-line="1090" selection-start-column="33" selection-end-line="1090" selection-end-column="33" />
+          <folding>
+            <marker date="1464328955289" expanded="true" signature="36399:36417" placeholder="..." />
+            <marker date="1464328955289" expanded="true" signature="36519:36537" placeholder="..." />
+            <marker date="1464328955289" expanded="true" signature="36851:36865" placeholder="..." />
+            <marker date="1464328955289" expanded="true" signature="37639:37657" placeholder="..." />
+            <marker date="1464328955289" expanded="true" signature="37964:37978" placeholder="..." />
+            <marker date="1464328955289" expanded="true" signature="38186:38200" placeholder="..." />
+            <marker date="1464328955289" expanded="true" signature="38839:38857" placeholder="..." />
+            <marker date="1464328955289" expanded="true" signature="39164:39178" placeholder="..." />
+            <marker date="1464328955289" expanded="true" signature="39386:39400" placeholder="..." />
+            <marker date="1464328955289" expanded="true" signature="40027:40045" placeholder="..." />
+            <marker date="1464328955289" expanded="true" signature="40352:40366" placeholder="..." />
+            <marker date="1464328955289" expanded="true" signature="40574:40588" placeholder="..." />
+            <marker date="1464328955289" expanded="true" signature="41227:41245" placeholder="..." />
+            <marker date="1464328955289" expanded="true" signature="41552:41566" placeholder="..." />
+            <marker date="1464328955289" expanded="true" signature="41774:41788" placeholder="..." />
+            <marker date="1464328955289" expanded="true" signature="42427:42445" placeholder="..." />
+            <marker date="1464328955289" expanded="true" signature="42752:42766" placeholder="..." />
+            <marker date="1464328955289" expanded="true" signature="42974:42988" placeholder="..." />
+            <marker date="1464328955289" expanded="true" signature="43651:43669" placeholder="..." />
+            <marker date="1464328955289" expanded="true" signature="43976:43990" placeholder="..." />
+            <marker date="1464328955289" expanded="true" signature="44198:44212" placeholder="..." />
+            <marker date="1464328955289" expanded="true" signature="47691:47705" placeholder="..." />
+            <marker date="1464328955289" expanded="true" signature="47878:47892" placeholder="..." />
+            <marker date="1464328955289" expanded="true" signature="49013:49027" placeholder="..." />
+            <marker date="1464328955289" expanded="true" signature="49200:49214" placeholder="..." />
           </folding>
         </state>
       </provider>

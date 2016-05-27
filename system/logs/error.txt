@@ -3905,3 +3905,221 @@
 2016-05-26 6:48:33 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
 2016-05-26 6:48:33 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
 2016-05-26 6:48:33 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:44:12 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 72
+2016-05-26 8:44:12 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:44:12 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:44:12 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:44:12 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:44:12 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:44:12 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:44:12 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:44:12 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:44:12 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:44:12 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:44:12 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:44:12 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:44:12 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:44:12 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:44:12 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:45:52 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 72
+2016-05-26 8:45:52 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:45:52 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:45:52 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:45:52 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:45:52 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:45:52 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:45:52 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:45:52 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:45:52 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:45:52 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:45:52 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:45:52 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:45:52 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:45:52 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:45:52 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:45:53 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 72
+2016-05-26 8:45:53 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:45:53 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:45:53 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:45:53 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:45:53 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:45:53 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:45:53 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:45:53 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:45:53 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:45:53 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:45:53 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:45:53 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:45:53 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:45:53 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:45:53 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:45:53 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 72
+2016-05-26 8:45:53 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:45:53 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:45:53 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:45:53 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:45:53 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:45:53 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:45:53 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:45:53 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:45:53 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:45:53 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:45:53 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:45:53 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:45:53 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:45:53 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:45:53 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:45:53 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 72
+2016-05-26 8:45:53 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:45:53 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:45:53 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:45:53 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:45:53 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:45:53 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:45:53 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:45:53 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:45:53 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:45:53 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:45:53 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:45:53 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:45:53 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:45:53 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:45:53 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:45:53 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 72
+2016-05-26 8:45:53 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:45:53 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:45:53 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:45:53 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:45:53 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:45:53 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:45:53 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:45:53 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:45:53 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:45:53 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:45:53 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:45:53 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:45:53 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:45:53 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-26 8:45:53 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-27 4:40:27 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 72
+2016-05-27 4:40:27 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-27 4:40:27 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-27 4:40:27 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-27 4:40:27 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-27 4:40:27 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-27 4:40:27 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-27 4:40:27 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-27 4:40:27 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-27 4:40:27 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-27 4:40:27 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-27 4:40:27 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-27 4:40:27 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-27 4:40:27 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-27 4:40:27 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-27 4:40:27 - PHP Notice:  Undefined variable: filter_order_status_id in /var/www/html/shpt/admin/view/template/sale/invoice_list.tpl on line 78
+2016-05-27 4:40:36 - PHP Notice:  Undefined index: 
+            token in /var/www/html/shpt/admin/view/template/sale/order_info.tpl on line 1067
+2016-05-27 4:40:36 - PHP Notice:  Undefined index: 
+            order_id in /var/www/html/shpt/admin/view/template/sale/order_info.tpl on line 1068
+2016-05-27 4:56:30 - PHP Notice:  Undefined index: 
+            token in /var/www/html/shpt/admin/view/template/sale/order_info.tpl on line 1067
+2016-05-27 4:56:30 - PHP Notice:  Undefined index: 
+            order_id in /var/www/html/shpt/admin/view/template/sale/order_info.tpl on line 1068
+2016-05-27 4:57:11 - PHP Notice:  Undefined index: 
+            token in /var/www/html/shpt/admin/view/template/sale/order_info.tpl on line 1067
+2016-05-27 4:57:11 - PHP Notice:  Undefined index: 
+            order_id in /var/www/html/shpt/admin/view/template/sale/order_info.tpl on line 1068
+2016-05-27 5:38:17 - PHP Notice:  Error: Table 'shptwbs.shipment_method' doesn't exist<br />Error No: 1146<br />SELECT * FROM shipment_method in /var/www/html/shpt/system/database/mysql.php on line 50
+2016-05-27 5:39:04 - PHP Notice:  Undefined variable: shipping_method_dropdown in /var/www/html/shpt/admin/view/template/sale/order_info.tpl on line 434
+2016-05-27 5:39:04 - PHP Notice:  Undefined index: 
+            token in /var/www/html/shpt/admin/view/template/sale/order_info.tpl on line 1086
+2016-05-27 5:39:04 - PHP Notice:  Undefined index: 
+            order_id in /var/www/html/shpt/admin/view/template/sale/order_info.tpl on line 1087
+2016-05-27 5:40:16 - PHP Warning:  Illegal string offset 'shipment_method_name' in /var/www/html/shpt/admin/view/template/sale/order_info.tpl on line 441
+2016-05-27 5:40:16 - PHP Warning:  Illegal string offset 'shipment_method_name' in /var/www/html/shpt/admin/view/template/sale/order_info.tpl on line 445
+2016-05-27 5:40:16 - PHP Warning:  Illegal string offset 'shipment_method_name' in /var/www/html/shpt/admin/view/template/sale/order_info.tpl on line 445
+2016-05-27 5:40:16 - PHP Warning:  Illegal string offset 'shipment_method_name' in /var/www/html/shpt/admin/view/template/sale/order_info.tpl on line 441
+2016-05-27 5:40:16 - PHP Warning:  Illegal string offset 'shipment_method_name' in /var/www/html/shpt/admin/view/template/sale/order_info.tpl on line 445
+2016-05-27 5:40:16 - PHP Warning:  Illegal string offset 'shipment_method_name' in /var/www/html/shpt/admin/view/template/sale/order_info.tpl on line 445
+2016-05-27 5:40:16 - PHP Notice:  Undefined index: 
+            token in /var/www/html/shpt/admin/view/template/sale/order_info.tpl on line 1086
+2016-05-27 5:40:16 - PHP Notice:  Undefined index: 
+            order_id in /var/www/html/shpt/admin/view/template/sale/order_info.tpl on line 1087
+2016-05-27 5:41:06 - PHP Warning:  Illegal string offset 'shipment_method_name' in /var/www/html/shpt/admin/view/template/sale/order_info.tpl on line 441
+2016-05-27 5:41:06 - PHP Warning:  Illegal string offset 'shipment_method_name' in /var/www/html/shpt/admin/view/template/sale/order_info.tpl on line 445
+2016-05-27 5:41:06 - PHP Warning:  Illegal string offset 'shipment_method_name' in /var/www/html/shpt/admin/view/template/sale/order_info.tpl on line 445
+2016-05-27 5:41:06 - PHP Warning:  Illegal string offset 'shipment_method_name' in /var/www/html/shpt/admin/view/template/sale/order_info.tpl on line 441
+2016-05-27 5:41:06 - PHP Warning:  Illegal string offset 'shipment_method_name' in /var/www/html/shpt/admin/view/template/sale/order_info.tpl on line 445
+2016-05-27 5:41:06 - PHP Warning:  Illegal string offset 'shipment_method_name' in /var/www/html/shpt/admin/view/template/sale/order_info.tpl on line 445
+2016-05-27 5:41:06 - PHP Notice:  Undefined index: 
+            token in /var/www/html/shpt/admin/view/template/sale/order_info.tpl on line 1087
+2016-05-27 5:41:06 - PHP Notice:  Undefined index: 
+            order_id in /var/www/html/shpt/admin/view/template/sale/order_info.tpl on line 1088
+2016-05-27 5:42:48 - PHP Warning:  Illegal string offset 'shipment_method_name' in /var/www/html/shpt/admin/view/template/sale/order_info.tpl on line 441
+2016-05-27 5:42:48 - PHP Warning:  Illegal string offset 'shipment_method_name' in /var/www/html/shpt/admin/view/template/sale/order_info.tpl on line 445
+2016-05-27 5:42:48 - PHP Warning:  Illegal string offset 'shipment_method_name' in /var/www/html/shpt/admin/view/template/sale/order_info.tpl on line 441
+2016-05-27 5:42:48 - PHP Warning:  Illegal string offset 'shipment_method_name' in /var/www/html/shpt/admin/view/template/sale/order_info.tpl on line 445
+2016-05-27 5:42:48 - PHP Notice:  Undefined index: 
+            token in /var/www/html/shpt/admin/view/template/sale/order_info.tpl on line 1087
+2016-05-27 5:42:48 - PHP Notice:  Undefined index: 
+            order_id in /var/www/html/shpt/admin/view/template/sale/order_info.tpl on line 1088
+2016-05-27 5:43:24 - PHP Warning:  Illegal string offset 'shipment_method_name' in /var/www/html/shpt/admin/view/template/sale/order_info.tpl on line 441
+2016-05-27 5:43:24 - PHP Warning:  Illegal string offset 'shipment_method_name' in /var/www/html/shpt/admin/view/template/sale/order_info.tpl on line 445
+2016-05-27 5:43:24 - PHP Warning:  Illegal string offset 'shipment_method_name' in /var/www/html/shpt/admin/view/template/sale/order_info.tpl on line 445
+2016-05-27 5:43:24 - PHP Warning:  Illegal string offset 'shipment_method_name' in /var/www/html/shpt/admin/view/template/sale/order_info.tpl on line 441
+2016-05-27 5:43:24 - PHP Warning:  Illegal string offset 'shipment_method_name' in /var/www/html/shpt/admin/view/template/sale/order_info.tpl on line 445
+2016-05-27 5:43:24 - PHP Warning:  Illegal string offset 'shipment_method_name' in /var/www/html/shpt/admin/view/template/sale/order_info.tpl on line 445
+2016-05-27 5:43:24 - PHP Notice:  Undefined index: 
+            token in /var/www/html/shpt/admin/view/template/sale/order_info.tpl on line 1087
+2016-05-27 5:43:24 - PHP Notice:  Undefined index: 
+            order_id in /var/www/html/shpt/admin/view/template/sale/order_info.tpl on line 1088
+2016-05-27 5:45:59 - PHP Warning:  Illegal string offset 'shipment_method_name' in /var/www/html/shpt/admin/view/template/sale/order_info.tpl on line 441
+2016-05-27 5:45:59 - PHP Warning:  Illegal string offset 'shipment_method_name' in /var/www/html/shpt/admin/view/template/sale/order_info.tpl on line 445
+2016-05-27 5:45:59 - PHP Warning:  Illegal string offset 'shipment_method_name' in /var/www/html/shpt/admin/view/template/sale/order_info.tpl on line 445
+2016-05-27 5:45:59 - PHP Warning:  Illegal string offset 'shipment_method_name' in /var/www/html/shpt/admin/view/template/sale/order_info.tpl on line 441
+2016-05-27 5:45:59 - PHP Warning:  Illegal string offset 'shipment_method_name' in /var/www/html/shpt/admin/view/template/sale/order_info.tpl on line 445
+2016-05-27 5:45:59 - PHP Warning:  Illegal string offset 'shipment_method_name' in /var/www/html/shpt/admin/view/template/sale/order_info.tpl on line 445
+2016-05-27 5:45:59 - PHP Warning:  Illegal string offset 'shipment_method_name' in /var/www/html/shpt/admin/view/template/sale/order_info.tpl on line 441
+2016-05-27 5:45:59 - PHP Warning:  Illegal string offset 'shipment_method_name' in /var/www/html/shpt/admin/view/template/sale/order_info.tpl on line 445
+2016-05-27 5:45:59 - PHP Warning:  Illegal string offset 'shipment_method_name' in /var/www/html/shpt/admin/view/template/sale/order_info.tpl on line 445
+2016-05-27 5:45:59 - PHP Notice:  Undefined index: 
+            token in /var/www/html/shpt/admin/view/template/sale/order_info.tpl on line 1087
+2016-05-27 5:45:59 - PHP Notice:  Undefined index: 
+            order_id in /var/www/html/shpt/admin/view/template/sale/order_info.tpl on line 1088
+2016-05-27 5:47:52 - PHP Warning:  Illegal string offset 'shipment_method_name' in /var/www/html/shpt/admin/view/template/sale/order_info.tpl on line 441
+2016-05-27 5:47:52 - PHP Warning:  Illegal string offset 'shipment_method_name' in /var/www/html/shpt/admin/view/template/sale/order_info.tpl on line 445
+2016-05-27 5:47:52 - PHP Warning:  Illegal string offset 'shipment_method_name' in /var/www/html/shpt/admin/view/template/sale/order_info.tpl on line 445
+2016-05-27 5:47:52 - PHP Warning:  Illegal string offset 'shipment_method_name' in /var/www/html/shpt/admin/view/template/sale/order_info.tpl on line 441
+2016-05-27 5:47:52 - PHP Warning:  Illegal string offset 'shipment_method_name' in /var/www/html/shpt/admin/view/template/sale/order_info.tpl on line 445
+2016-05-27 5:47:52 - PHP Warning:  Illegal string offset 'shipment_method_name' in /var/www/html/shpt/admin/view/template/sale/order_info.tpl on line 445
+2016-05-27 5:47:52 - PHP Warning:  Illegal string offset 'shipment_method_name' in /var/www/html/shpt/admin/view/template/sale/order_info.tpl on line 441
+2016-05-27 5:47:52 - PHP Warning:  Illegal string offset 'shipment_method_name' in /var/www/html/shpt/admin/view/template/sale/order_info.tpl on line 445
+2016-05-27 5:47:52 - PHP Warning:  Illegal string offset 'shipment_method_name' in /var/www/html/shpt/admin/view/template/sale/order_info.tpl on line 445
+2016-05-27 5:47:52 - PHP Notice:  Undefined index: 
+            token in /var/www/html/shpt/admin/view/template/sale/order_info.tpl on line 1087
+2016-05-27 5:47:52 - PHP Notice:  Undefined index: 
+            order_id in /var/www/html/shpt/admin/view/template/sale/order_info.tpl on line 1088
+2016-05-27 5:51:23 - PHP Notice:  Undefined index: 
+            token in /var/www/html/shpt/admin/view/template/sale/order_info.tpl on line 1087
+2016-05-27 5:51:23 - PHP Notice:  Undefined index: 
+            order_id in /var/www/html/shpt/admin/view/template/sale/order_info.tpl on line 1088
+2016-05-27 5:51:45 - PHP Notice:  Undefined index: 
+            token in /var/www/html/shpt/admin/view/template/sale/order_info.tpl on line 1086
+2016-05-27 5:51:45 - PHP Notice:  Undefined index: 
+            order_id in /var/www/html/shpt/admin/view/template/sale/order_info.tpl on line 1087
+2016-05-27 5:52:54 - PHP Notice:  Undefined index: 
+            token in /var/www/html/shpt/admin/view/template/sale/order_info.tpl on line 1087
+2016-05-27 5:52:54 - PHP Notice:  Undefined index: 
+            order_id in /var/www/html/shpt/admin/view/template/sale/order_info.tpl on line 1088
+2016-05-27 5:53:41 - PHP Notice:  Undefined index: 
+            token in /var/www/html/shpt/admin/view/template/sale/order_info.tpl on line 1087
+2016-05-27 5:53:41 - PHP Notice:  Undefined index: 
+            order_id in /var/www/html/shpt/admin/view/template/sale/order_info.tpl on line 1088
+2016-05-27 6:02:50 - PHP Notice:  Undefined index: 
+            token in /var/www/html/shpt/admin/view/template/sale/order_info.tpl on line 1118
+2016-05-27 6:02:50 - PHP Notice:  Undefined index: 
+            order_id in /var/www/html/shpt/admin/view/template/sale/order_info.tpl on line 1119
+2016-05-27 6:03:03 - PHP Notice:  Undefined index: 
+            token in /var/www/html/shpt/admin/view/template/sale/order_info.tpl on line 1118
+2016-05-27 6:03:03 - PHP Notice:  Undefined index: 
+            order_id in /var/www/html/shpt/admin/view/template/sale/order_info.tpl on line 1119

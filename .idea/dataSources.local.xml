@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="MySQL - shptwbs@localhost" uuid="a4599af5-4853-4510-a231-9725fa094f2b">
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <schema-pattern>shptwbs.*</schema-pattern>
+      <default-schemas>shptwbs.*</default-schemas>
+    </data-source>
+  </component>
+</project>

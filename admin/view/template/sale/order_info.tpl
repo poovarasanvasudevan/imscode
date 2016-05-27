@@ -430,6 +430,26 @@
 
                         </td>
                     </tr>
+
+                    <?php if ($shipment_method_dropdown && $shipping_method) { ?>
+                    <tr>
+                        <td><?php echo $text_shipping_method; ?></td>
+                        <td>
+
+                            <select name="shipment_method_dropdown" id="shipment_method_dropdown">
+                                <?php foreach ($shipment_method_dropdown as $shipping_methods) { ?>
+                                <?php if ($shipping_methods['shipment_method_name'] == $shipping_method) { ?>
+                                <option value="<?php echo $shipping_methods['shipment_method_name']; ?>"
+                                        selected="selected"><?php echo $shipping_methods['shipment_method_name']; ?></option>
+                                <?php } else { ?>
+                                <option value="<?php echo $shipping_methods['shipment_method_name']; ?>"><?php echo $shipping_methods['shipment_method_name']?></option>
+                                <?php } ?>
+                                <?php } ?>
+                            </select>&nbsp;&nbsp;
+                            <a class="button" id="shipment-save"><?php echo $button_save; ?></a>
+                        </td>
+                    </tr>
+                    <?php } ?>
                     <tr>
                         <td><?php echo $entry_comment; ?></td>
                         <td><textarea name="comment" cols="40" rows="8" style="width: 99%"></textarea>
@@ -1052,6 +1072,37 @@
             }
         });
     });
+
+    $('#shipment-save').live('click', function () {
+        var shipment_method = $('#shipment_method_dropdown').val();
+        var order_id = $_GET('order_id');
+
+        //updateweight
+        $.ajax({
+            url: 'index.php?route=sale/order/saveshippmentmethod&token=<?php echo $token; ?>&order_id=<?php echo $order_id; ?>' + '&shippment_method=' + shipment_method,
+            type: 'get',
+            dataType: 'json',
+            beforeSend: function () {
+                $('.success, .warning').remove();
+                $('#shipment-save').attr('disabled', true);
+                //$('#history').prepend('<div class="attention"><img src="view/image/loading.gif" alt="" /> <?php echo $text_wait; ?></div>');
+            },
+            complete: function () {
+                $('#shipment-save').attr('disabled', false);
+            },
+            success: function (data) {
+                if (data.status) {
+                    $('.box').before('<div class="success" style="display: none;">' + data.message + '</div>');
+                    $('.success').fadeIn('slow');
+                } else {
+                    $('.box').before('<div class="warning" style="display: none;">' + data.message + '</div>');
+                    $('.warning').fadeIn('slow');
+                }
+            }
+        });
+    });
+
+
     //--></script>
 <script type="text/javascript"><!--
     $('.vtabs a').tabs();
